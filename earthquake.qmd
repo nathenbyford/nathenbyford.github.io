@@ -1,0 +1,9 @@
+---
+title: "Earthquake project"
+---
+
+## Project goal
+
+Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data.
+
+## The data

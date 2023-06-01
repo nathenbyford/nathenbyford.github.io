@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Nate Byford,\nA graduate student at Baylor University in the department of Statistical Sciences. I obtained my undergraduate B.S. in statistics at Baylor University as well in 2022.\nWhen I’m not in my office taking care of business, whether that be homework, studying, teaching, or consulting work. I can be found outside mountain biking or hiking in nearby Cameron Park. I also play the guitar and bass and can be found gigging on occasion around town or on campus.\nMy primary interests are utilizing statistical methods to solve real world problems and make the world a safer place. Since I’ve always been interested in computers and other technology type of things I’m particularly interested in finding applications for statistics in cyber security. I also enjoy data visualization and data modeling, since I can do all that on my computer and compare different plots or models to get the best fit for the problem at hand."
+  },
+  {
+    "objectID": "index.html#hi-im-nathen",
+    "href": "index.html#hi-im-nathen",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "A passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security."
+  },
+  {
+    "objectID": "index.html#im-nathen-byford",
+    "href": "index.html#im-nathen-byford",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+  },
+  {
+    "objectID": "index.html#current-projects",
+    "href": "index.html#current-projects",
+    "title": "Welcome!",
+    "section": "Current Projects",
+    "text": "Current Projects\n\nBaylor Quarto Theme\nPresentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.\n\n\nUSGS Earthquake data\nUsing data from USGS Earthquake Catalog to build models of earthquake predictions. Locations and magnitude."
+  },
+  {
+    "objectID": "index.html#past-projects",
+    "href": "index.html#past-projects",
+    "title": "Welcome!",
+    "section": "Past Projects",
+    "text": "Past Projects\n\nBenford’s Law\n\n\nMoWaTER"
+  },
+  {
+    "objectID": "earthquake.html",
+    "href": "earthquake.html",
+    "title": "earthquake",
+    "section": "",
+    "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
+  },
+  {
+    "objectID": "earthquake.html#project-goal",
+    "href": "earthquake.html#project-goal",
+    "title": "earthquake",
+    "section": "",
+    "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
+  },
+  {
+    "objectID": "earthquake.html#the-data",
+    "href": "earthquake.html#the-data",
+    "title": "earthquake",
+    "section": "The data",
+    "text": "The data"
+  },
+  {
+    "objectID": "about.html#im-nate-byford",
+    "href": "about.html#im-nate-byford",
+    "title": "About",
+    "section": "",
+    "text": "A graduate student at Baylor University in the department of Statistical Sciences."
+  }
+]
