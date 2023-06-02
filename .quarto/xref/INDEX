@@ -7,5 +7,11 @@
   },
   "earthquake.qmd": {
     "earthquake.html": "34465b02"
+  },
+  "current_projects.qmd": {
+    "current_projects.html": "2555a27d"
+  },
+  "past_projects.qmd": {
+    "past_projects.html": "f11def79"
   }
 }

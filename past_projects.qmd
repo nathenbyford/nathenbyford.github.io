@@ -1,0 +1,12 @@
+---
+title: "Past Projects"
+---
+
+### [Benford's Law](https://github.com/nathenbyford/Benfords-Law-Research)
+![](Pictures/Global renewable plot.png)
+Analysis of statistical tests that can be used to test for Benford's Law. As a part of RUSIS @ OSU 2021.
+
+### [MoWaTER](https://github.com/nathenbyford/MoWaTER)
+![](Pictures/All filter flow.jpeg)
+
+Analysis of Water filter efficiency and cleanliness at Denver water's foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020.

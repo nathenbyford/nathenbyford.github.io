@@ -44,21 +44,21 @@
   {
     "objectID": "earthquake.html",
     "href": "earthquake.html",
-    "title": "earthquake",
+    "title": "Earthquake project",
     "section": "",
     "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
   },
   {
     "objectID": "earthquake.html#project-goal",
     "href": "earthquake.html#project-goal",
-    "title": "earthquake",
+    "title": "Earthquake project",
     "section": "",
     "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
   },
   {
     "objectID": "earthquake.html#the-data",
     "href": "earthquake.html#the-data",
-    "title": "earthquake",
+    "title": "Earthquake project",
     "section": "The data",
     "text": "The data"
   },
@@ -68,5 +68,33 @@
     "title": "About",
     "section": "",
     "text": "A graduate student at Baylor University in the department of Statistical Sciences."
+  },
+  {
+    "objectID": "current_projects.html",
+    "href": "current_projects.html",
+    "title": "Current Projects",
+    "section": "",
+    "text": "Baylor Quarto Theme\nPresentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.\n\n\nUSGS Earthquake data\nUsing data from USGS Earthquake Catalog to build models of earthquake predictions. Locations and magnitude."
+  },
+  {
+    "objectID": "past_projects.html#mowater",
+    "href": "past_projects.html#mowater",
+    "title": "Past Projects",
+    "section": "MoWaTER",
+    "text": "MoWaTER\n\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
+  },
+  {
+    "objectID": "past_projects.html",
+    "href": "past_projects.html",
+    "title": "Past Projects",
+    "section": "",
+    "text": "Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021."
+  },
+  {
+    "objectID": "past_projects.html#benfords-law",
+    "href": "past_projects.html#benfords-law",
+    "title": "Past Projects",
+    "section": "",
+    "text": "Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021."
   }
 ]
