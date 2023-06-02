@@ -9,10 +9,10 @@ website:
         text: Home
       - text: Projects
         menu:
-        - text: past project
-          href: past_projects.qmd
         - text: Current projects
           href: current_projects.qmd
+        - text: past project
+          href: past_projects.qmd
       - about.qmd
     right:
     - icon: github
