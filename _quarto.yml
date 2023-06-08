@@ -21,6 +21,9 @@ website:
     - icon: linkedin
       href: https://www.linkedin.com/in/nathen-byford/
       aria-label: LinkedIn
+    - icon: email
+      href: nathen_byford1@baylor.edu
+      aria-label: Email
 
 format:
   html:

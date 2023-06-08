@@ -4,12 +4,12 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "about",
     "section": "",
     "text": "I’m Nate Byford,\nA graduate student at Baylor University in the department of Statistical Sciences. I obtained my undergraduate B.S. in statistics at Baylor University as well in 2022.\nWhen I’m not in my office taking care of business, whether that be homework, studying, teaching, or consulting work. I can be found outside mountain biking or hiking in nearby Cameron Park. I also play the guitar and bass and can be found gigging on occasion around town or on campus.\nMy primary interests are utilizing statistical methods to solve real world problems and make the world a safer place. Since I’ve always been interested in computers and other technology type of things I’m particularly interested in finding applications for statistics in cyber security. I also enjoy data visualization and data modeling, since I can do all that on my computer and compare different plots or models to get the best fit for the problem at hand."
   },
@@ -25,7 +25,7 @@
     "href": "index.html#im-nathen-byford",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "index.html#current-projects",
@@ -88,7 +88,7 @@
     "href": "past_projects.html",
     "title": "Past Projects",
     "section": "",
-    "text": "Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021."
+    "text": "Benford’s Law\n Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021.\n\n\nMoWaTER\n\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
   },
   {
     "objectID": "past_projects.html#benfords-law",
@@ -96,5 +96,26 @@
     "title": "Past Projects",
     "section": "",
     "text": "Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021."
+  },
+  {
+    "objectID": "about1.html",
+    "href": "about1.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+  },
+  {
+    "objectID": "about1.html#im-nathen-byford",
+    "href": "about1.html#im-nathen-byford",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+  },
+  {
+    "objectID": "about.html#im-nathen-byford",
+    "href": "about.html#im-nathen-byford",
+    "title": "about",
+    "section": "",
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. My areas of interest are: computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   }
 ]

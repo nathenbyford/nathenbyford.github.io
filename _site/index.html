@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -65,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,18 +86,18 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./past_projects.html" rel="" target="">
- <span class="dropdown-text">past project</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./current_projects.html" rel="" target="">
  <span class="dropdown-text">Current projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./past_projects.html" rel="" target="">
+ <span class="dropdown-text">past project</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">about</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -109,6 +108,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/nathen-byford/" rel="" target=""><i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./nathen_byford1@baylor.edu" rel="" target=""><i class="bi bi-email" role="img" aria-label="Email">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -124,44 +128,48 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="Pictures/about.jpg" class="about-image
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Welcome!</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
 </header>
-
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<p><img src="Pictures/Portrait.jpg" class="img-fluid"></p>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/nathen-byford/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/nathenbyford" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="/nathen_byford1@baylor.edu" class="about-link" rel="" target="">
+    <i class="bi bi-email"></i>
+     <span class="about-link-text">Email</span>
+  </a>
 </div>
-<section id="im-nathen-byford" class="level2 quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
-<h2 class="anchored" data-anchor-id="im-nathen-byford">I’m Nathen Byford,</h2>
-<p>Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security. <strong>My areas of interest are:</strong> computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis.</p>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<section id="im-nathen-byford" class="level2">
+<h2 data-anchor-id="im-nathen-byford">I’m Nathen Byford,</h2>
+<p>Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security.</p>
+<section id="my-areas-of-interest-are" class="level3">
+<h3 data-anchor-id="my-areas-of-interest-are">My areas of interest are</h3>
+<p>Computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis.</p>
+
+
 </section>
+</section>
+</main></div>
 </div>
-</div>
-
-
-
-</main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -297,13 +305,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

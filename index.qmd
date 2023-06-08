@@ -1,15 +1,26 @@
 ---
 title: "Welcome!"
+toc: false
+about:
+  template: trestles
+  image: Pictures/about.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/nathen-byford/
+    - icon: github
+      text: Github
+      href: https://github.com/nathenbyford
+    - icon: email
+      text: email
+      href: nathen_byford1@baylor.edu
 ---
-
-::: {layout="[40, 60]"}
-![](Pictures/Portrait.jpg)
 
 ## I'm Nathen Byford,
 Nice to meat you! I'm a passionate statistician looking for opportunities to make the world a better 
 and safer place using data science and statistical methods. 
 My goals are to apply statistics to real world problems in the area of cyber security. 
-**My areas of interest are:** computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis.
-:::
 
 
+### My areas of interest are 
+Computational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis.

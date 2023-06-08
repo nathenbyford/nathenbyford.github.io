@@ -1,6 +1,5 @@
 ---
-title: "About"
-toc: false
+title: "about"
 ---
 
 ### I'm Nate Byford,
@@ -10,3 +9,8 @@ A graduate student at Baylor University in the department of Statistical Science
 When I'm not in my office taking care of business, whether that be homework, studying, teaching, or consulting work. I can be found outside mountain biking or hiking in nearby Cameron Park. I also play the guitar and bass and can be found gigging on occasion around town or on campus.
 
 My primary interests are utilizing statistical methods to solve real world problems and make the world a safer place. Since I've always been interested in computers and other technology type of things I'm particularly interested in finding applications for statistics in cyber security. I also enjoy data visualization and data modeling, since I can do all that on my computer and compare different plots or models to get the best fit for the problem at hand.
+
+
+
+
+
