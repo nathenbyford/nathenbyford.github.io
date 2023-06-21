@@ -2,17 +2,15 @@ project:
   type: website
 
 website:
-  title: ""
+  title: "Nate Byford"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
-        text: Home
-      - text: Projects
-        menu:
-        - text: Current projects
-          href: current_projects.qmd
-        - text: past project
-          href: past_projects.qmd
+        text: "Home"
+      - text: "Projects"
+        file: current_projects.qmd
       - about.qmd
     right:
     - icon: github
@@ -21,17 +19,15 @@ website:
     - icon: linkedin
       href: https://www.linkedin.com/in/nathen-byford/
       aria-label: LinkedIn
-    - icon: email
-      href: nathen_byford1@baylor.edu
-      aria-label: Email
 
 format:
   html:
     theme: 
-      light: flatly
+      light: yeti
       dark: darkly
     css: styles.css
     toc: true
+    mainfont: sans-serif
 
 execute: 
   freeze: auto
