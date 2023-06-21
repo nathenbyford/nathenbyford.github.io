@@ -12,6 +12,8 @@ website:
       - text: "Projects"
         file: current_projects.qmd
       - about.qmd
+      - text: "Notes"
+        file: theory-notes.qmd
     right:
     - icon: github
       href: https://github.com/nathenbyford
