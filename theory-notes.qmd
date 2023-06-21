@@ -85,6 +85,55 @@ We tend not to be interested in the trivial set, we are more interested in the s
 The cardinality or size of the power set is:
 $$\mathcal{C(P_S)} = 2^{\mathcal{C(S)}}$$
 
+### Axioms of probability
+Given a sample space $\mathcal{S}$ and an associated $\sigma$-algebra $\mathcal{B}$, a probability function is a function $P$ with domain $\mathcal{B}$ that satisfies:
+
+1. $P(A) \ge 0, ~{} \text{ for all } ~{} A \in {\mathcal{B}}$
+2. $P(S) = 1$
+3. If $A_1, A_2, ...$ are pairwise disjoint, then $P \left(\cup_{i=1}^\infty A_i \right) = \Sigma_{i=1}^\infty P(A_i)$
+
+These are the *axioms of probability* or Kolmogorov's axioms.
+
+There are some people who disagree with the third axiom, the axiom of countable additivity. Specifically a school of statistics led by deFinetti, who has decided to replace it with the axiom of finite additivity.
+
+That is, if $A \in \mathcal{B}$ and $B \in \mathcal{B}$ are disjoint, then
+$$P(A \cup B) = P(A) + P(B)$$
+Although the axiom of finite additivity is easier to prove or see, it brings with it some unexpected consequences that the axiom of countable additivity does not introduce. Therefore, it is better to use the first set of axioms (Kolmogorov's axioms).
+
+**Probability space**
+
+A probability space can be represented by the probability triple denoted as $(\mathcal{S}, \mathcal{B}, P)$, where $\mathcal{S}$ is the sample space, $\mathcal{B}$ is a Borel field of $\mathcal{S}$, and $P$ is a valid probability statement.
+
+Let $\mathcal{S} = \{ \omega_1, \ldots, \omega_n \}$ be a finite set and $\mathcal{B}$ be any $\sigma$-algebra of $\mathcal{S}$. Let $p_1, \ldots, p_n$ be non-negative real numbers that sum to 1. For any $A \in \mathcal{B}$ define $P(A)$ by
+$$P(A) = \sum_{\{i: s_i \in A\}} p_i$$
+
+### Calculus of Probabilities
+If $P$ is a valid probability function and $A$ is any set in $\mathcal{B}$
+
+a) $P(\emptyset) = 0$, where $\emptyset$ is the null set;
+a) $P(A) \le 1$;
+a) $P(A^{c}) = 1 - P(A)$.
+
+**Probability of sets and set operations**
+\begin{align*}
+  P(A \cup B) &= P(A) + P(B) \\
+	P(A \cap B^c) &= P(A) - P(A \cap B) \\
+	P(A \cup B) &= P(A) +P(B) - P(A \cap B) \\
+	\text{If } A &\subset B \text{ then } P(A) \le P(B)
+\end{align*}
+**Bonferoni's inequality**
+$$P(A \cap B) \ge P(A) + P(B) - 1$$
+
+**Law of total probability**
+$$P(A) = \Sigma_{i = 1}^\infty P(A \cap C_i)$$
+For $C_1, C_2, ... \in {\mathcal{B}}$, where $C_1, C_2, ...$ are a partition of $\mathcal{S}$. This will come in use a bit later when we use Bayes theorem and conditionals.
+
+**Boole's Inequality**
+$$ P(\cup_{i = 1}^\infty A_i) \le \Sigma P(A_i)$$ 
+For any collection of sets, $A_1, A_2, \ldots \in {\mathcal{B}}$
+
+## Counting Techniques
+
 # Transformations and Expectations
 
 # Common families of Distributions
