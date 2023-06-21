@@ -1,0 +1,90 @@
+---
+title: "Theory of Statistics notes"
+author: "Nathen Byford"
+format: 
+  html: 
+    mainfont: "sans-serif"
+    toc: true
+---
+
+All notes come from reading Casella and Berger, and class notes from STA 5381 and STA 5382.
+
+# Probability Theory
+> "The theory of probability is the only mathematical tool available to help map the unknown and the uncontrollable." - Ronald A. Fisher
+
+Probability forms the foundation of statistics that all analysis is firmly built upon. At its core, probability provides a framework to understand and quantify uncertainty. By assigning numerical values to uncertain events, it enables statisticians to model and analyze various phenomena with precision and rigor. Probability theory allows us to determine the likelihood of different outcomes, evaluate the chances of events occurring, and measure the degree of confidence in our conclusions. Whether it is estimating population parameters, testing hypotheses, or making predictions, statistics relies heavily on probability to make sense of the inherent variability and randomness present in data. Through the language of probability, statisticians can navigate the intricate landscape of uncertainty and draw meaningful insights that shape our understanding of the world.
+
+
+## Set Theory
+If probability is the foundation of statistics, then set theory is the cornerstone of probability. It is important to have a basic understanding of set theory to understand probability and statistics.
+
+**Sample Space:** The set $\mathcal{S}$ of all possible outcomes of an experiment is called the *sample space* for the experiment. *Other possible notations of the sample space are* $\{\Omega \text{ or } \mathcal{X}\}$. 
+
+Since the sample space contains all possible values of a given experiment we need to recognize the two types of sample spaces: *countable* and *uncountable*. A countable sample space is one that we can count all the possible outcomes either values or specific outcomes, these tend to have specific set of possible outcomes or an integer value. Uncountable sample spaces have infinitely many possible outcomes, an example of this would be the sample space $\mathcal{S} \in (0, \infty)$.
+
+**Event:** Any collection of possible outcomes, that is any partition of the set $\mathcal{S}$. This includes the total partition of the entire set $\mathcal{S} \in \mathcal{S}$.
+
+There are two types of events, *simple events* and *complex events*.
+
+* **Simple events**: An event with a single outcome, a simple event can only happen one way.
+* **Complex events**: The combination of two or more simple events. The number if ways a complex event can occur is determined by counting techniques.
+
+**Set Operations**
+Let $A$ be a set from the sample space $\mathcal{S}$ and $B$ be another set from the sample space $\mathcal{S}$.
+
+* Union:
+$$A \cup B = \left\{\omega \in \mathcal{S}: \omega \in A ~{} \mathbf{or} ~{} \omega \in B\right\}$$
+* Intersection:
+$$A \cap B = \left\{\omega \in \mathcal{S}: \omega \in A ~{} \mathbf{and} ~{} \omega \in B\right\}$$
+* Compliment:
+$$A^{c} = A^{\prime} = \left\{\omega \in \mathbf{S}: \omega \notin A\right\}$$
+
+When two sets share nothing between the two, then $A \cap B = \emptyset$. Where $\emptyset$ is called the *null or empty set*, the set that contains nothing.
+
+### Properties of set operators
+
+* Commutativity: 
+$$A \cup B = B \cup A$$
+$$A \cap B = B \cap A$$
+* Associativity:
+$$A \cup (B \cup C) = (A \cup B) \cup C$$
+$$A \cap (B \cap C) = (A \cap B) \cap C$$
+* Distributive:
+$$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$$
+$$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
+* DeMorgan's Law:
+$$(A \cup B)^{c} = A^{c} \cap B^{c}$$
+$$(A \cap B)^{c} = A^{c} \cup B^{c}$$
+Note: Using a Venn diagram to show these properties does not count as mathematical proof and a proof can be found using the subsets and showing they are equal from both sides.
+
+Both unions and intersections can be expanded to infinite sets.
+$$\cup_{i = 1}^{\infty} A_i = \left\{\omega \in \mathcal{S}: \omega \in A_i \text{ For some } i\right\}$$
+$$\cap_{i = 1}^{\infty} A_i = \left\{\omega \in \mathcal{S}: \omega \in A_i \text{ For all } i\right\}$$
+Two events $A$ and $B$ are said to be *disjoint* if $A \cap B = \emptyset$. The events $A_1, A_2, \ldots$ are said to be pairwise disjoint if $A_i \cap A_j = \emptyset$ for all $i \ne j$.
+
+Disjoint sets are sets with no points in common.
+
+If $A_1, A_2, \ldots$ are pairwise disjoint and $\cup_{i=1}^{\infty}A_i = S$, then the collection $A_1, A_2, \ldots$ is a *partition* of $S$.
+
+## Basics of probability theory
+
+> "The theory of probability is founded on the assumption that it is possible to associate a numerical measure with the likelihood of each event." - Andrey Kolmogorov
+
+When an experiment is performed, the result is an outcome $\omega$ in the sample space $\mathcal{S}$. The probability of any outcome $\omega \in \mathcal{S}$ is the limit of the relative frequency of the event, $\omega$,  as the number of times the experiment is performed goes to infinity.
+
+### Sigma algebras ($\sigma$-algebra)
+A sigma algebra or Borel field is the set of all possible outcomes of an experiment. The requirements for a $\sigma$-algebra/Borel field($\mathcal{B}$) are
+
+* $\emptyset \in \mathcal{B}$ (The null set is contained within the $\sigma$-algebra)
+* If $A \in \mathcal{B}$, then $A^{c} \in \mathcal{B}$ also. (Closed under complementation)
+* If $A_1, A_2, \ldots \in \mathcal{B}$, then $\cup_{i=1}^{\infty} A_i \in \mathcal{B}$ (Closed under countable unions)
+
+The smallest possible $\sigma$-algebra is called the trivial set and contains the sample space $\mathcal{S}$ and the null set $\emptyset$.
+
+We tend not to be interested in the trivial set, we are more interested in the smallest set that isn't the trivial set. The *power set*($\mathcal{P_S}$) is the next smallest $\sigma$-algebra, this is the set of all the subsets within $\mathcal{S}$ and $\emptyset$.
+The cardinality or size of the power set is:
+$$\mathcal{C(P_S)} = 2^{\mathcal{C(S)}}$$
+
+# Transformations and Expectations
+
+# Common families of Distributions
