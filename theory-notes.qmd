@@ -132,7 +132,91 @@ For $C_1, C_2, ... \in {\mathcal{B}}$, where $C_1, C_2, ...$ are a partition of 
 $$ P(\cup_{i = 1}^\infty A_i) \le \Sigma P(A_i)$$ 
 For any collection of sets, $A_1, A_2, \ldots \in {\mathcal{B}}$
 
-## Counting Techniques
+## Counting Techniques and Enumerating Outcomes
+**Fundamental Theorem of Counting:** If a job consists of $k$ separate tasks, the $i$-th of which can be done in $n_i$ ways. $i = 1, 2, ..., k$, then the entire job can be done in $n_1 \times n_2 \times ... \times n_k$ ways.
+
+* **What is a "job"?**
+A "job" is what produces of the final set, examples include tossing a coin $n$ times, tossing two dice one at a time. Basically the "job" is the experiment.
+* **What is a "task"?**
+A "task" is the action being done over and over for the job, examples include, flipping a coin, rolling a die, etc. 
+
+There are two properties of the experiment that must be known to determine the size of the sample space.
+
+* *Sampling Scheme:* with or without replacement
+* *Outcomes:* ordered or unordered.
+
+**Sampling Schemes**
+
+* without replacement
+  + Once a unit is selected for the sample it is removed from the population, can't be sampled again.
+  + **Cannot** have repeat units in the outcome.
+* With replacement
+  + When a unit is selected for the sample it is placed back into the population, can be sampled again.
+  + **Can** have repeat units in the outcome.
+  
+**Outcome**
+
+* Ordered outcomes
+  + When an experiment involves two or more tasks, if the same results have a different ordering it is a **different** outcome.
+* Unordered outcomes
+  + When an experiment involves two or more tasks, if the same results have a different ordering it is the **same** outcome, **does not** create a new outcome.
+  
+### Counting Techniques
+**Ordered without Replacement**
+
+If a population with $n$ units has $r$ units selected without replacement. If the outcomes are ordered, the the number of outcomes is 
+\begin{equation*}
+  \mathcal{C(S)} = \frac{n!}{(n - r)!}
+\end{equation*}
+
+**Ordered with Replacement**
+
+If a population with $n$ units has $r$ units selected with replacement. If the outcomes are ordered, the the number of outcomes is 
+\begin{equation*}
+  \mathcal{C(S)} = n^r
+\end{equation*}
+
+**Unordered without Replacement**
+
+If a population with $n$ units has $r$ units selected without replacement. If the outcomes are unordered, the the number of outcomes is 
+\begin{equation*}
+  \mathcal{C(S)} = \binom{n}{r} = \frac{n!}{(n - r)! r!}
+\end{equation*}
+This notation is called choose, here it would be said "There are $n$ choose $r$ possible outcomes."
+
+**Unordered with Replacement**
+
+If a population with $n$ units has $r$ units selected with replacement. If the outcomes are unordered, the the number of outcomes is 
+\begin{equation*}
+  \mathcal{C(S)} = \binom{n + r - 1}{r} = \frac{(n + r - 1)!}{(n - 1)! r!}
+\end{equation*}
+
+### Enumerating outcomes
+To apply the counting techniques to compute probabilities enumerate the outcomes and then divide by the cardinality of the sample space.
+$$ P(A) = \frac{{\cal{C}}(A)}{{\cal{C}(S)}}  = \frac{{\cal{C}}(A)}{N} $$
+Ways to enumerate the outcomes:
+
+* Count up the amount of possibilities (Simple examples only).
+* Use counting techniques to determine $\mathcal{C}(A)$.
+
+In some cases the sample may need to be split into more than one event to use counting techniques. If so we would use the Fundamental Theorem of Counting to get the total number of outcomes.
+
+## Conditional Probability, Independence,  Random Variables, and Distribution Functions
+Consider the sample space $\cal{S}$ and $\cal{B}$ a $\sigma$-algebra of the sets in $\cal{S}$. Let $A$ and $B$ be any two events in $\cal{B}$ with $P(B) > 0$. Then the *conditional probability* of $A$ given $B$ (has occurred), is written as $P(A|B)$ is 
+$$ P(A|B) = \frac{P(AB)}{P(B)} $$
+**Bayes Rule**
+
+From the expression for conditional probability we can derive the following.
+\begin{align*}
+  P(A|B) &= \frac{P(A \cap B)}{P(B)} \\
+  \Rightarrow P(A \cap B) &= P(A|B)P(B) \\
+  \Rightarrow P(B \cap A) &= P(B|A)P(A) \\
+  \Rightarrow P(A|B) &= \frac{P(B|A)P(A)}{P(B)}
+\end{align*}
+Consider a sample space $\cal{S}$ and a Borel field $\cal{B}$ of the sets in $\cal{S}$. Let $A_1, A_2, ... \in \cal{B}$ be a partition of $\cal{S}$ and $B \in \cal{B}$ another set with $P(B) > 0$. Then for each $i = 1, 2, ...$
+$$P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\Sigma_{j=1}^\infty P(B|A_j)P(A_j)}$$
+
+The denominator comes from the law of total probability.
 
 # Transformations and Expectations
 
