@@ -218,6 +218,73 @@ $$P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\Sigma_{j=1}^\infty P(B|A_j)P(A_j)}$$
 
 The denominator comes from the law of total probability.
 
+Possibly the single most important property in statistics, *independence*. 
+
+Let $\cal{S}$ be a sample space, and $\cal{B}$ a Borel field of the sets in $\cal{S}$. Let $A$ and $B$ be any two events in $\cal{B}$ such that $P(A)>0$ and $P(B)>0$. The events $A$ and $B$ are said to be *statistically independent* (or independent) if 
+\begin{align*}
+  P(AB) &= P(A)P(B), \text{ or} \\
+  P(A|B) = P(A) &\text{ or } P(B|A) = P(B)
+\end{align*}
+If $A$ and $B$ are not independent, then they are dependent events. Another way to think of independence in terms of conditional probability is: if knowing that one event has occurred does not change the probability that the other event will occur.
+
+**Mutually Exclusive Events**
+
+Let $\mathcal{S}$ be a sample space, and $\mathcal{B}$ a $\sigma$-algebra on the sets in $\cal{S}$. Let $A$ and $B$ be any two mutually exclusive events in $\mathcal{B}$ with $P(A)>0$ and $P(B)>0$. Then $A$ and $B$ are statistically dependent events.
+
+**Independence of Complements**
+
+If $A$ and $B$ are independent events, then the following pairs are also independent.
+
+* $A$ and $B^c$
+* $A^c$ and $B$
+* $A^c$ and $B^c$
+
+**Independence of Multiple Events**
+
+Also called \textit{Mutually independent events}: A collection of events $A_1, A_2, ... , A_n$ are mutually independent if for any sub collection $A_{i1}, ..., A_{ik}$ we have 
+$$ P\left(\bigcap_{j=1}^k A_{ij}\right) = \prod_{j=1}^k P(A_{ij}) $$
+
+**Random Variables**
+
+Most experiments are easily described using a summary variable instead of the original probability structure.
+
+A *random variable* is a function from the sample space $\cal{S}$ into the real numbers.
+
+* The domain of $A$ is $\cal{S}$. Therefore, for each $\omega_i \in \cal{S}$, we have $X(\omega_i) = x_i$, where $x_i \in$ real numbers.
+* The range of $X(\omega)$ is all real numbers, or a subset of all real numbers.
+
+**Induced Probability Function**
+
+Consider a finite sample space $\cal{S} = \{\omega_1, \omega_2, ... , \omega_n\}$ with probability function $P$. Define the random variable $X({\cal{S}}) \rightarrow {\cal{X}}$ where ${\cal{X}} = \{x_1, x_2, ..., x_n\}$. The induced probability function $P_X$ is
+$$P_X(X = x_i) = P(\{\omega_j \in {\cal{S}} : X(\omega_j) = x_i\} $$
+
+**Distribution Functions**
+
+Every random variable has associated with it a distribution function called the cumulative distribution function (CDF).
+
+The CDF of a random variable $X$ is denoted by $F_X(x)$, and is defined as
+$$ F_X(x) = P_X(X \le x), \text{ for all } x \in {\cal{X}} $$
+Right continuous function:
+$$\lim_{x \rightarrow x_0^+} f(x)= f(x_0)$$
+Properties of a CDF:
+
+* $\lim_{x \rightarrow -\infty} F_X(x) = 0$ and $\lim_{x \rightarrow \infty} F_X(x) = 1$
+* $F_X(x)$ is a non-decreasing function of $x$
+* $F_X(x)$ is a right-continuous function
+
+**Continuous Random Variables**
+
+A random variable $X$ is defined to be continuous if $F_X(x)$ is a continuous function of $x$. 
+
+**Discrete Random Variables**
+
+A random variable $X$ is said to be discrete if $F_X(x)$ is a step function of $x$.
+
+**Identically Distributed**
+
+If $X$ and $Y$ have CDFs $F_X$ and $F_Y$ and are identically distributed, then
+$$ F_X(x) = F_Y(x) \text{ for all } x$$
+
 # Transformations and Expectations
 
 # Common families of Distributions
