@@ -7,7 +7,7 @@ format:
     toc: true
 ---
 
-All notes come from reading Casella and Berger, and class notes from STA 5381 and STA 5382.
+All notes come from reading Casella and Berger, and slides from STA 5381 and STA 5382.
 
 # Probability Theory
 > "The theory of probability is the only mathematical tool available to help map the unknown and the uncontrollable." - Ronald A. Fisher
@@ -286,5 +286,56 @@ If $X$ and $Y$ have CDFs $F_X$ and $F_Y$ and are identically distributed, then
 $$ F_X(x) = F_Y(x) \text{ for all } x$$
 
 # Transformations and Expectations
+
+## Transformations
+Transformations take a set and map it onto a new sample space and return a new set.
+
+* Let $X$ be a random variable with CDF $F_X(x)$ and $Y = g(X)$ be a function of $X$.
+* Since $X$ is a random variable, then $Y = g(X)$ is a random variable. Therefore for a given set $A$
+$$ P(Y \in A) = P(g(X) \in A)$$
+* The distribution of $Y$ will depend on $g$ and on $F_X(x)$.
+* $g$ defines a mapping from $\cal{X}$ to a new sample space, which we denote as $\cal{Y}$
+* The inverse mapping of $g(X) = G^{-1}(Y)$:
+$$ g^{-1}(A) = \{x \in {\cal{X}}: g(x) \in A\} $$
+
+### Monotone Transformations
+The easiest transforms are when $g$ is monotone.
+
+Properties of a *monotone function*:
+
+* One-to-one: each value $x$ goes to only one $y$, and each value of $y$ comes from at most one value $x$.
+* onto: For each $y \in {\cal{Y}}$, here is an $x \in {\cal{X}}$ such that $g(x) = y$.
+
+Steps for monotone transform:
+
+* Define $\cal{X}$ and $\cal{Y}$.
+\begin{align*}
+  {\cal{X}} &= \{x : f_X(x) > 0 \} \\
+  {\cal{Y}} &= \{y : y = g(x) \text{ for some } x \in {\cal{X}} \}
+\end{align*}
+* If $g$ is an increasing monotone function of $\cal{X}$, 
+$$ F_Y(y) = F_X(g^{-1}(y)) \text{ for } y \in {\cal{Y}} $$
+* If $g$ is a decreasing function on ${\cal{X}}$ and $X$ is a continuous random variable, 
+$$ F_Y(y) = 1 - F_X\left(g^{-1}(y)\right) \text{ for } y \in \cal{Y} $$
+
+The PDF of a monotone transform will be
+\begin{equation}
+  f_Y(y) = f_X(g^{-1}(y))\left|\frac{d}{dy} g^{-1}(y)\right|
+\end{equation}
+
+### Non-monotone transformation
+A non-monotone function will need to be split up into separate functions $g_i(x)$ at the points of the partition $A_1, A_2, .., A_k$ of $\cal{X}$ such that $P(X \in A_0) = 0$.
+
+* Each $g_i(x)$ is monotone on $A_i$
+* The set ${\cal{Y}} = \{y: y = g_i(x)\}$ for some $x \in A_i$ for each $i = 1, 2, ..., k$
+* $g^{-1}(y)$ has a continuous derivative on $\cal{Y}$ for rach $i = 1, 2, ..., k$. Then 
+\begin{equation}
+  f_Y(y) = \sum_{i=1}^k f_X(g^{-1}(y)) \left| \frac{d}{dy} g^{-1}(y) \right|
+\end{equation}
+
+**Probability Integral Transform**
+Let $X$ have a continuous CDF $F_X(x)$ and define the random variable $Y$ as $Y = F_X(X)$. Then $Y$ is uniformly distributed on $(0, 1)$; that is , $P(Y \le y) = y$ for $ 0 < y < 1$.
+
+## Expectations
 
 # Common families of Distributions
