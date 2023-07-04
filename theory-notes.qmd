@@ -338,4 +338,42 @@ Let $X$ have a continuous CDF $F_X(x)$ and define the random variable $Y$ as $Y 
 
 ## Expectations
 
+The *expected value* of a random variable $X$ is denoted by $E[X]$. The expected value is a weighted average of the values of $X$, where the weights are the assigned from the PMF or PDF.
+
+* If $X$ is discrete with PMF $f_X(x)$, then 
+$$ E[X] = \sum x f_X(x) $$
+* If $X$ is continuous with PDF $f_X(x)$, then
+$$ E[X] = \int x f_X(x) dx $$
+
+We can also take the expected value of transformations or functions of the data:
+
+* If $X$ is discrete with PMF $f_X(x)$, then
+$$ E[g(x)] = \sum g(x) f_X(x) $$
+* If $X$ is continuous with PDF $f_X(x)$, then
+$$ E[X] = \int g(x) f_X(x) dx $$
+
+**Properties of expectations:**
+
+Let $X$ be a random variable and let $a$, $b$, and $c$ be real constants. Then for any functions $g_1(x)$ and $g_2(x)$ whose expectation exist
+
+* $E[ag_1(X) + bg_2(X) + c] = aE[g_i(X)] + bE[g_2(X)] + c$
+* If $g_1(x) \ge 0$ for all $x$, then $E[g_1(x)] \ge 0$
+* If $g_1(x) \ge g_2(x)$ for all $x$, then $E[g_1(x)] \ge E[g_2(x)]$ 
+* If $a \le g_1(x) \le b$ for all $x$, then $a \le E[g_1(X)] \le b$
+
+### Moments
+For each integer $n$, the $n$-th moment of $X$, denoted $\mu_n^\prime$, is defined as
+$$ \mu_n^\prime = E[X^n] $$
+The $n$-th central moment of $X$, denoted $\mu_n$, is defined as
+$$ \mu_n = E[(X - \mu)^n] $$
+Note on the two most important moments:
+
+The two most important moments are the 1st moment and the second central moment, called the *mean* and *variance* respectively.
+\begin{align*}
+  \mu &= E[X] \\
+  \text{Var}(X) &= E[(X - E[X])^2] \\
+  &\text{or} \\
+  \text{Var}(X) &= E[X^2] - (E[X])^2
+\end{align*}
+
 # Common families of Distributions
