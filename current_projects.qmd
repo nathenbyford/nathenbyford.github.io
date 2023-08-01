@@ -1,16 +1,8 @@
 ---
 title: "Current Projects"
-# website:
-#   sidebar: 
-#     - title: "Projects"
-#       style: "docked"
-#       background: light
-#       contents: 
-#         - current_projects.qmd
-#         - past_projects.qmd
 ---
 
-### [Baylor Quarto Theme](https://github.com/nathenbyford/Baylor_theme)
+### [Baylor Quarto Theme](https://github.com/nathenbyford/Baylor-quarto-theme)
 
 Presentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.
 
