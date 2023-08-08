@@ -429,7 +429,7 @@ The expected value of a coninuous distribution is, $\text{E}[X] = \int_{x \in {\
 | Uniform($a, b$)
 |   $f(x|a, b) = \frac{1}{b - a}$
 |   $\mu = (a + b) / 2$
-|   $\sigma^2 = (b - a)^2 / 12
+|   $\sigma^2 = (b - a)^2 / 12$
 
 | exponential($\lambda$)
 |   $f(x|\lambda) = \frac{1}{\lambda} e^{- x / \lambda}$
@@ -444,7 +444,7 @@ The expected value of a coninuous distribution is, $\text{E}[X] = \int_{x \in {\
 :::
 
 :::{.column width="50%"}
-| Gamma($\alpha, \alpha$)
+| Gamma($\alpha, \beta$)
 |   $f(x|\alpha, \beta) = \frac{1}{\Gamma(\alpha)\beta^{\alpha}} x^{\alpha - 1} \exp{-x / \beta}$
 |   $\mu = \alpha \beta$
 |   $\sigma^2 = \alpha \beta^2$
