@@ -10,7 +10,9 @@ website:
       - href: index.qmd
         text: "Home"
       - text: "Projects"
-        file: current_projects.qmd
+        menu: 
+          - current_projects.qmd
+          - past_projects.qmd
       - about.qmd
       - text: "Notes"
         file: theory-notes.qmd
@@ -25,8 +27,8 @@ website:
 format:
   html:
     theme: 
-      light: yeti
-      dark: flatly
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
     mainfont: sans-serif

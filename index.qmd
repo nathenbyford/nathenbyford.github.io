@@ -3,7 +3,7 @@ title: "Welcome!"
 toc: false
 about:
   template: trestles
-  image: Pictures/about.jpg
+  image: Pictures/about.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
@@ -16,7 +16,7 @@ about:
 ## I'm Nathen Byford,
 Nice to meat you! I'm a passionate statistician looking for opportunities to make the world a better 
 and safer place using data science and statistical methods. 
-My goals are to apply statistics to real world problems in the area of cybersecurity. 
+My goals are to apply statistics to real world problems in the area of cybersecurity.
 
 
 ### My areas of interest are 

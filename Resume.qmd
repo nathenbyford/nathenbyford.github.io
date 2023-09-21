@@ -1,0 +1,35 @@
+---
+toc: false
+---
+
+# Nathen Byford
+
+Skilled Statistician interested in applying statistics and data science techniques to analyze data and research applications to build a safer world.
+
+## Work Experience
+**Graduate Teaching Assistant**
+: Baylor University | Department of Statistical Science 
+: Waco, TX | August 2022 - Present
+
+**Statistical Consultant**
+: Baylor University | Department of Statistical Science
+: Waco, TX | August 2023 - Present
+
+**Undergraduate Researcher**
+: Oregon State University
+: Corvallis, OR | June 2021 - August 2021
+
+**Summer Research Fellow**
+: Baylor University | [MoWaTER Project](https://www.baylor.edu/mowater/)
+: Remote | June 2020 - August 2020
+
+
+## Education
+
+**Master of Science | Baylor University**
+: Statistics
+: May 2022 - Present
+
+**Bachelor of Science | Baylor University**
+: Statistics
+: May 2022

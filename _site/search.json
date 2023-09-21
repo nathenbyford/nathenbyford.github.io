@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "about.html",
@@ -25,7 +25,7 @@
     "href": "index.html#im-nathen-byford",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cyber security.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "index.html#current-projects",
@@ -186,6 +186,27 @@
     "href": "theory-notes.html#continuous-distributions",
     "title": "Theory of Statistics notes",
     "section": "Continuous Distributions",
-    "text": "Continuous Distributions\nThe expected value of a coninuous distribution is, \\(\\text{E}[X] = \\int_{x \\in {\\mathcal{A}}} x f(X) dx\\)\n\n\nUniform(\\(a, b\\))\n  \\(f(x|a, b) = \\frac{1}{b - a}\\)\n  \\(\\mu = (a + b) / 2\\)\n  $^2 = (b - a)^2 / 12\nexponential(\\(\\lambda\\))\n  \\(f(x|\\lambda) = \\frac{1}{\\lambda} e^{- x / \\lambda}\\)\n  \\(F(x|\\lambda) = 1 - e^{-x / \\lambda}\\)\n  \\(\\mu = \\lambda\\)\n  \\(\\sigma^2 = \\lambda^2\\)\nNormal(\\(\\mu, \\sigma^2\\))\n  \\(f(x| \\mu, \\sigma^2) = \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \\exp\\{-\\frac{x - \\mu}{2 \\sigma^2}\\}\\)\n  \\(\\mu = \\mu\\)\n  \\(\\sigma^2 = \\sigma^2\\)\n\nGamma(\\(\\alpha, \\alpha\\))\n  \\(f(x|\\alpha, \\beta) = \\frac{1}{\\Gamma(\\alpha)\\beta^{\\alpha}} x^{\\alpha - 1} \\exp{-x / \\beta}\\)\n  \\(\\mu = \\alpha \\beta\\)\n  \\(\\sigma^2 = \\alpha \\beta^2\\)\nBeta(\\(\\alpha, \\beta\\))\n  \\(f(x| \\alpha, \\beta) = \\frac{1}{\\beta(\\alpha, \\beta)} x^{\\alpha - 1} {(1-x)}^{\\beta-1}\\)\n  \\(\\mu = \\alpha / (\\alpha + \\beta)\\)\n  \\(\\sigma^2 = (\\alpha \\beta) / \\{(\\alpha + \\beta)^2(\\alpha + \\beta + 1)\\}\\)"
+    "text": "Continuous Distributions\nThe expected value of a coninuous distribution is, \\(\\text{E}[X] = \\int_{x \\in {\\mathcal{A}}} x f(X) dx\\)\n\n\nUniform(\\(a, b\\))\n  \\(f(x|a, b) = \\frac{1}{b - a}\\)\n  \\(\\mu = (a + b) / 2\\)\n  \\(\\sigma^2 = (b - a)^2 / 12\\)\nexponential(\\(\\lambda\\))\n  \\(f(x|\\lambda) = \\frac{1}{\\lambda} e^{- x / \\lambda}\\)\n  \\(F(x|\\lambda) = 1 - e^{-x / \\lambda}\\)\n  \\(\\mu = \\lambda\\)\n  \\(\\sigma^2 = \\lambda^2\\)\nNormal(\\(\\mu, \\sigma^2\\))\n  \\(f(x| \\mu, \\sigma^2) = \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \\exp\\{-\\frac{x - \\mu}{2 \\sigma^2}\\}\\)\n  \\(\\mu = \\mu\\)\n  \\(\\sigma^2 = \\sigma^2\\)\n\nGamma(\\(\\alpha, \\beta\\))\n  \\(f(x|\\alpha, \\beta) = \\frac{1}{\\Gamma(\\alpha)\\beta^{\\alpha}} x^{\\alpha - 1} \\exp{-x / \\beta}\\)\n  \\(\\mu = \\alpha \\beta\\)\n  \\(\\sigma^2 = \\alpha \\beta^2\\)\nBeta(\\(\\alpha, \\beta\\))\n  \\(f(x| \\alpha, \\beta) = \\frac{1}{\\beta(\\alpha, \\beta)} x^{\\alpha - 1} {(1-x)}^{\\beta-1}\\)\n  \\(\\mu = \\alpha / (\\alpha + \\beta)\\)\n  \\(\\sigma^2 = (\\alpha \\beta) / \\{(\\alpha + \\beta)^2(\\alpha + \\beta + 1)\\}\\)"
+  },
+  {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "Skilled Statistician interested in applying statistics and data science techniques to analyze data and research applications to build a safer world.\n\n\n\nGraduate Teaching Assistant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2022 - Present\n\nStatistical Consultant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2023 - Present\n\nUndergraduate Researcher\n\nOregon State University\n\n\nCorvallis, OR | June 2021 - August 2021\n\nSummer Research Fellow\n\nBaylor University | MoWaTER Project\n\n\nRemote | June 2020 - August 2020\n\n\n\n\n\n\nMaster of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
+  },
+  {
+    "objectID": "Resume.html#work-experience",
+    "href": "Resume.html#work-experience",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "Graduate Teaching Assistant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2022 - Present\n\nStatistical Consultant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2023 - Present\n\nUndergraduate Researcher\n\nOregon State University\n\n\nCorvallis, OR | June 2021 - August 2021\n\nSummer Research Fellow\n\nBaylor University | MoWaTER Project\n\n\nRemote | June 2020 - August 2020"
+  },
+  {
+    "objectID": "Resume.html#education",
+    "href": "Resume.html#education",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "Master of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
   }
 ]
