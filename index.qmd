@@ -16,7 +16,7 @@ about:
 ## I'm Nathen Byford,
 Nice to meat you! I'm a passionate statistician looking for opportunities to make the world a better 
 and safer place using data science and statistical methods. 
-My goals are to apply statistics to real world problems in the area of cyber security. 
+My goals are to apply statistics to real world problems in the area of cybersecurity. 
 
 
 ### My areas of interest are 
