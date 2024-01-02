@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "about.html",
@@ -25,7 +25,7 @@
     "href": "index.html#im-nathen-byford",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "index.html#current-projects",
@@ -74,7 +74,7 @@
     "href": "current_projects.html",
     "title": "Current Projects",
     "section": "",
-    "text": "Baylor Quarto Theme\nPresentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.\n\n\nUSGS Earthquake data\nUsing data from USGS Earthquake Catalog to build models of earthquake predictions. Locations and magnitude."
+    "text": "Baylor Quarto Theme\nPresentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements."
   },
   {
     "objectID": "past_projects.html#mowater",
@@ -88,7 +88,7 @@
     "href": "past_projects.html",
     "title": "Past Projects",
     "section": "",
-    "text": "Benford’s Law\n Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021.\n\n\nMoWaTER\n\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
+    "text": "Anomaly Detection\n\nMachine learining project comparing different methods for identifying anomalies in time series data. Completed as final project for advanced data driven methods course (STA 5360) at Baylor University.\n\n\nBenford’s Law\n\nAnalysis of statistical tests that can be used to test for Benford’s Law and a look into Benford’s Law for words. As a part of RUSIS @ OSU 2021.\n\n\nMoWaTER\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
   },
   {
     "objectID": "past_projects.html#benfords-law",
