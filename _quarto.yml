@@ -16,6 +16,8 @@ website:
       - about.qmd
       - text: "Notes"
         file: theory-notes.qmd
+      - text: "linux"
+        file: linux.qmd
     right:
     - icon: github
       href: https://github.com/nathenbyford

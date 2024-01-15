@@ -1,0 +1,101 @@
+---
+title: "Linux for statistics"
+---
+
+## Operatiing system
+
+With so many linux distributions available, what operating system to choose is a big task. For those that don't know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check [here](https://en.wikipedia.org/wiki/List_of_Linux_distributions). Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system. 
+
+I've opted to use ubuntu or ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great comunities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in april and is supported for 4 years. This means that the system will continue to get updates for 4 years.
+
+## Post install
+
+### R and tidyverse install
+
+Since Ubuntu doesn't have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.  
+
+To do this copy and past the following code into the terminal as a user with sudo access.
+```{bash}
+#| eval: false
+
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg
+```
+
+Next we add the R sources to the sources that apt will look through by running the following in the terminal.
+
+```{bash}
+#| eval: false
+
+echo "deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" | sudo tee -a /etc/apt/sources.list.d/r-project.list
+```
+
+Now that we have added cran to apt as a source we want to update the source list in apt using apt update.
+
+```{bash}
+#| eval: false
+
+sudo apt update
+```
+
+Then finally installing R we can simply run the following in the terminal to install the latest version of R.
+
+```{bash}
+#| eval: false
+
+sudo apt install r-base
+```
+
+Now the most recent version of R should be install this can be checked by running `R` in your terminal or by typing `R --version` in the terminal.
+
+### Tidyverse and dependencies
+
+Before installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.
+
+```{bash}
+#| eval: false
+
+sudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+```
+
+After the dependencies are installed using R and `install.packages()` we can install the tidyverse and any other packages you need.
+
+### Additional R packages
+
+Aside from the tidyverse some other helpful R packages are as follows.
+
+- quarto: For report and presentation creation.
+- 
+
+## Other lanuages
+
+- Python 3 is already installed on linux, I don't use it much, but when I need it I google how to install what I need on ubuntu. `pip` can be installed as follows.
+```{bash}
+#| eval: false
+
+# install pip
+sudo apt install python3-pip
+```
+
+- Julia can be installed in the software center if you search for it.
+
+- Latex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extention as my TeX editor.
+
+```{bash}
+#| eval: false
+
+# install texlive full
+sudo apt install texlive-full
+```
+
+## Software and IDEs
+
+In terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software. 
+
+For other software you can install similarly if it isn't in the software store. Many apps are able to install right in the software center if you search its there. For example:
+
+- Visual Studio Code
+- Zotero
+- Zoom
+- Slack
+- Todoist
+- etc.
