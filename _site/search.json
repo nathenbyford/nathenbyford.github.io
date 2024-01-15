@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "about.html",
@@ -25,7 +25,7 @@
     "href": "index.html#im-nathen-byford",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meat you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\nComputational statistics, machine learning, data processing, data visualization, anomaly detection and adversarial risk analysis."
   },
   {
     "objectID": "index.html#current-projects",
@@ -208,5 +208,47 @@
     "title": "Nathen Byford",
     "section": "",
     "text": "Master of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
+  },
+  {
+    "objectID": "linux.html",
+    "href": "linux.html",
+    "title": "Linux for statistics",
+    "section": "",
+    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use ubuntu or ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great comunities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in april and is supported for 4 years. This means that the system will continue to get updates for 4 years."
+  },
+  {
+    "objectID": "linux.html#operatiing-system",
+    "href": "linux.html#operatiing-system",
+    "title": "Linux for statistics",
+    "section": "",
+    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use ubuntu or ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great comunities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in april and is supported for 4 years. This means that the system will continue to get updates for 4 years."
+  },
+  {
+    "objectID": "linux.html#post-install",
+    "href": "linux.html#post-install",
+    "title": "Linux for statistics",
+    "section": "Post install",
+    "text": "Post install\n\nR and tidyverse install\nSince Ubuntu doesn’t have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.\nTo do this copy and past the following code into the terminal as a user with sudo access.\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg\nNext we add the R sources to the sources that apt will look through by running the following in the terminal.\necho \"deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/\" | sudo tee -a /etc/apt/sources.list.d/r-project.list\nNow that we have added cran to apt as a source we want to update the source list in apt using apt update.\nsudo apt update\nThen finally installing R we can simply run the following in the terminal to install the latest version of R.\nsudo apt install r-base\nNow the most recent version of R should be install this can be checked by running R in your terminal or by typing R --version in the terminal.\n\n\nTidyverse and dependencies\nBefore installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.\nsudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev\nAfter the dependencies are installed using R and install.packages() we can install the tidyverse and any other packages you need.\n\n\nAdditional R packages\nAside from the tidyverse some other helpful R packages are as follows.\n\nquarto: For report and presentation creation."
+  },
+  {
+    "objectID": "linux.html#other-lanuages",
+    "href": "linux.html#other-lanuages",
+    "title": "Linux for statistics",
+    "section": "Other lanuages",
+    "text": "Other lanuages\n\nPython 3 is already installed on linux, I don’t use it much, but when I need it I google how to install what I need on ubuntu. pip can be installed as follows.\n\n# install pip\nsudo apt install python3-pip\n\nJulia can be installed in the software center if you search for it.\nLatex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extention as my TeX editor.\n\n# install texlive full\nsudo apt install texlive-full"
+  },
+  {
+    "objectID": "linux.html#software-and-ides",
+    "href": "linux.html#software-and-ides",
+    "title": "Linux for statistics",
+    "section": "Software and IDEs",
+    "text": "Software and IDEs\nIn terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software.\nFor other software you can install similarly if it isn’t in the software store. Many apps are able to install right in the software center if you search its there. For example:\n\nVisual Studio Code\nZotero\nZoom\nSlack\nTodoist\netc."
+  },
+  {
+    "objectID": "linux.html#operating-system",
+    "href": "linux.html#operating-system",
+    "title": "Linux for statistics",
+    "section": "",
+    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use ubuntu or ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great comunities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in april and is supported for 4 years. This means that the system will continue to get updates for 4 years."
   }
 ]
