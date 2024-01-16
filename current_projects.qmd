@@ -13,7 +13,3 @@ title: "Current Projects"
 ### [Baylor Quarto Theme](https://github.com/nathenbyford/Baylor_theme)
 
 Presentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.
-
-### [USGS Earthquake data](earthquake.qmd)
-
-Using data from USGS Earthquake Catalog to build models of earthquake predictions. Locations and magnitude.

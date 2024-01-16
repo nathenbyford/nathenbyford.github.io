@@ -2,7 +2,7 @@
 title: "Past Projects"
 ---
 
-### [Data Driven Anomaly Detection](https://github.com/nathenbyford/anomaly-detection-project)
+### [Anomaly Detection](https://github.com/nathenbyford/anomaly-detection-project)
 ![](Pictures/anomaly_data.png){width=70%}  
 As a part of STA 5360 at Baylor university my final project was comparing different approaches to anomaly detection. These methods included a simple yet good linear model method, seasonal time series decomposition using loess (STL), isolation forests, and a neural network.
 

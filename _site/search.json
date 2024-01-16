@@ -74,7 +74,7 @@
     "href": "current_projects.html",
     "title": "Current Projects",
     "section": "",
-    "text": "Baylor Quarto Theme\nPresentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.\n\n\nUSGS Earthquake data\nUsing data from USGS Earthquake Catalog to build models of earthquake predictions. Locations and magnitude."
+    "text": "Baylor Quarto Theme\nPresentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements."
   },
   {
     "objectID": "past_projects.html#mowater",
@@ -88,7 +88,7 @@
     "href": "past_projects.html",
     "title": "Past Projects",
     "section": "",
-    "text": "Data Driven Anomaly Detection\n\nAs a part of STA 5360 at Baylor university my final project was comparing different approaches to anomaly detection. These methods included a simple yet good linear model method, seasonal time series decomposition using loess (STL), isolation forests, and a neural network.\n\n\nBenford’s Law\n\nAnalysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021.\n\n\nMoWaTER\n\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
+    "text": "Anomaly Detection\n\nAs a part of STA 5360 at Baylor university my final project was comparing different approaches to anomaly detection. These methods included a simple yet good linear model method, seasonal time series decomposition using loess (STL), isolation forests, and a neural network.\n\n\nBenford’s Law\n\nAnalysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021.\n\n\nMoWaTER\n\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
   },
   {
     "objectID": "past_projects.html#benfords-law",
