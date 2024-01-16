@@ -13,9 +13,12 @@ website:
         menu: 
           - current_projects.qmd
           - past_projects.qmd
-      - about.qmd
       - text: "Notes"
-        file: theory-notes.qmd
+        menu: 
+          - theory-notes.qmd
+          - linux.qmd
+      - text: "About"
+        file: about.qmd
     right:
     - icon: github
       href: https://github.com/nathenbyford

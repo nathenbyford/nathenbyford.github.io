@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nate Byford - Past Projects</title>
+<title>Nate Byford - Linux for statistics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -157,9 +191,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#anomaly-detection" id="toc-anomaly-detection" class="nav-link active" data-scroll-target="#anomaly-detection">Anomaly Detection</a></li>
-  <li><a href="#benfords-law" id="toc-benfords-law" class="nav-link" data-scroll-target="#benfords-law">Benford’s Law</a></li>
-  <li><a href="#mowater" id="toc-mowater" class="nav-link" data-scroll-target="#mowater">MoWaTER</a></li>
+  <li><a href="#operating-system" id="toc-operating-system" class="nav-link active" data-scroll-target="#operating-system">Operating system</a></li>
+  <li><a href="#post-install" id="toc-post-install" class="nav-link" data-scroll-target="#post-install">Post install</a>
+  <ul class="collapse">
+  <li><a href="#r-and-tidyverse-install" id="toc-r-and-tidyverse-install" class="nav-link" data-scroll-target="#r-and-tidyverse-install">R and tidyverse install</a></li>
+  <li><a href="#tidyverse-and-dependencies" id="toc-tidyverse-and-dependencies" class="nav-link" data-scroll-target="#tidyverse-and-dependencies">Tidyverse and dependencies</a></li>
+  <li><a href="#additional-r-packages" id="toc-additional-r-packages" class="nav-link" data-scroll-target="#additional-r-packages">Additional R packages</a></li>
+  </ul></li>
+  <li><a href="#other-lanuages" id="toc-other-lanuages" class="nav-link" data-scroll-target="#other-lanuages">Other lanuages</a></li>
+  <li><a href="#software-and-ides" id="toc-software-and-ides" class="nav-link" data-scroll-target="#software-and-ides">Software and IDEs</a></li>
   </ul>
 </nav>
     </div>
@@ -168,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Past Projects</h1>
+<div class="quarto-title-block"><div><h1 class="title">Linux for statistics</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -184,21 +224,71 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="anomaly-detection" class="level3">
-<h3 class="anchored" data-anchor-id="data-driven-anomaly-detection"><a href="https://github.com/nathenbyford/anomaly-detection-project">Data Driven Anomaly Detection</a></h3>
-<p><img src="Pictures/anomaly_data.png" class="img-fluid" style="width:70.0%"><br>
-As a part of STA 5360 at Baylor university my final project was comparing different approaches to anomaly detection. These methods included a simple yet good linear model method, seasonal time series decomposition using loess (STL), isolation forests, and a neural network.</p>
-</section>
-<section id="benfords-law" class="level3">
-<h3 class="anchored" data-anchor-id="benfords-law"><a href="https://github.com/nathenbyford/Benfords-Law-Research">Benford’s Law</a></h3>
-<p><img src="Pictures/Global renewable plot.png" class="img-fluid" style="width:70.0%"><br>
-Analysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021.</p>
-</section>
-<section id="mowater" class="level3">
-<h3 class="anchored" data-anchor-id="mowater"><a href="https://github.com/nathenbyford/MoWaTER">MoWaTER</a></h3>
-<p><img src="Pictures/All filter flow.jpeg" class="img-fluid" style="width:70.0%"><br>
-Analysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020.</p>
 
+<section id="operating-system" class="level2">
+<h2 class="anchored" data-anchor-id="operating-system">Operating system</h2>
+<p>With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check <a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions">here</a>. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.</p>
+<p>I’ve opted to use ubuntu or ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great comunities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in april and is supported for 4 years. This means that the system will continue to get updates for 4 years.</p>
+</section>
+<section id="post-install" class="level2">
+<h2 class="anchored" data-anchor-id="post-install">Post install</h2>
+<section id="r-and-tidyverse-install" class="level3">
+<h3 class="anchored" data-anchor-id="r-and-tidyverse-install">R and tidyverse install</h3>
+<p>Since Ubuntu doesn’t have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.</p>
+<p>To do this copy and past the following code into the terminal as a user with sudo access.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> <span class="at">-qO-</span> https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc <span class="kw">|</span> <span class="fu">sudo</span> gpg <span class="at">--dearmor</span> <span class="at">-o</span> /usr/share/keyrings/r-project.gpg</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Next we add the R sources to the sources that apt will look through by running the following in the terminal.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/"</span> <span class="kw">|</span> <span class="fu">sudo</span> tee <span class="at">-a</span> /etc/apt/sources.list.d/r-project.list</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now that we have added cran to apt as a source we want to update the source list in apt using apt update.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then finally installing R we can simply run the following in the terminal to install the latest version of R.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install r-base</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now the most recent version of R should be install this can be checked by running <code>R</code> in your terminal or by typing <code>R --version</code> in the terminal.</p>
+</section>
+<section id="tidyverse-and-dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="tidyverse-and-dependencies">Tidyverse and dependencies</h3>
+<p>Before installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>After the dependencies are installed using R and <code>install.packages()</code> we can install the tidyverse and any other packages you need.</p>
+</section>
+<section id="additional-r-packages" class="level3">
+<h3 class="anchored" data-anchor-id="additional-r-packages">Additional R packages</h3>
+<p>Aside from the tidyverse some other helpful R packages are as follows.</p>
+<ul>
+<li>quarto: For report and presentation creation.</li>
+<li></li>
+</ul>
+</section>
+</section>
+<section id="other-lanuages" class="level2">
+<h2 class="anchored" data-anchor-id="other-lanuages">Other lanuages</h2>
+<ul>
+<li>Python 3 is already installed on linux, I don’t use it much, but when I need it I google how to install what I need on ubuntu. <code>pip</code> can be installed as follows.</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install pip</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install python3-pip</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><p>Julia can be installed in the software center if you search for it.</p></li>
+<li><p>Latex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extention as my TeX editor.</p></li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install texlive full</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install texlive-full</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="software-and-ides" class="level2">
+<h2 class="anchored" data-anchor-id="software-and-ides">Software and IDEs</h2>
+<p>In terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software.</p>
+<p>For other software you can install similarly if it isn’t in the software store. Many apps are able to install right in the software center if you search its there. For example:</p>
+<ul>
+<li>Visual Studio Code</li>
+<li>Zotero</li>
+<li>Zoom</li>
+<li>Slack</li>
+<li>Todoist</li>
+<li>etc.</li>
+</ul>
+
+
+<!-- -->
 
 </section>
 
@@ -426,6 +516,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -733,7 +874,97 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb8" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Linux for statistics"</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co">    html:</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co">        code-tools: true</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## Operating system</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>With so many linux distributions available, what operating system to choose is a big task. For those that don't know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check <span class="co">[</span><span class="ot">here</span><span class="co">](https://en.wikipedia.org/wiki/List_of_Linux_distributions)</span>. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system. </span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>I've opted to use ubuntu or ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great comunities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in april and is supported for 4 years. This means that the system will continue to get updates for 4 years.</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Post install</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### R and tidyverse install</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>Since Ubuntu doesn't have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.  </span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>To do this copy and past the following code into the terminal as a user with sudo access.</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> <span class="at">-qO-</span> https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc <span class="kw">|</span> <span class="fu">sudo</span> gpg <span class="at">--dearmor</span> <span class="at">-o</span> /usr/share/keyrings/r-project.gpg</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>Next we add the R sources to the sources that apt will look through by running the following in the terminal.</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/"</span> <span class="kw">|</span> <span class="fu">sudo</span> tee <span class="at">-a</span> /etc/apt/sources.list.d/r-project.list</span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>Now that we have added cran to apt as a source we want to update the source list in apt using apt update.</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>Then finally installing R we can simply run the following in the terminal to install the latest version of R.</span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install r-base</span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-42"><a href="#cb8-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-43"><a href="#cb8-43" aria-hidden="true" tabindex="-1"></a>Now the most recent version of R should be install this can be checked by running <span class="in">`R`</span> in your terminal or by typing <span class="in">`R --version`</span> in the terminal.</span>
+<span id="cb8-44"><a href="#cb8-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-45"><a href="#cb8-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tidyverse and dependencies</span></span>
+<span id="cb8-46"><a href="#cb8-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-47"><a href="#cb8-47" aria-hidden="true" tabindex="-1"></a>Before installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.</span>
+<span id="cb8-48"><a href="#cb8-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-49"><a href="#cb8-49" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-50"><a href="#cb8-50" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev</span>
+<span id="cb8-51"><a href="#cb8-51" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-52"><a href="#cb8-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-53"><a href="#cb8-53" aria-hidden="true" tabindex="-1"></a>After the dependencies are installed using R and <span class="in">`install.packages()`</span> we can install the tidyverse and any other packages you need.</span>
+<span id="cb8-54"><a href="#cb8-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-55"><a href="#cb8-55" aria-hidden="true" tabindex="-1"></a><span class="fu">### Additional R packages</span></span>
+<span id="cb8-56"><a href="#cb8-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-57"><a href="#cb8-57" aria-hidden="true" tabindex="-1"></a>Aside from the tidyverse some other helpful R packages are as follows.</span>
+<span id="cb8-58"><a href="#cb8-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-59"><a href="#cb8-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>quarto: For report and presentation creation.</span>
+<span id="cb8-60"><a href="#cb8-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span></span>
+<span id="cb8-61"><a href="#cb8-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-62"><a href="#cb8-62" aria-hidden="true" tabindex="-1"></a><span class="fu">## Other lanuages</span></span>
+<span id="cb8-63"><a href="#cb8-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-64"><a href="#cb8-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Python 3 is already installed on linux, I don't use it much, but when I need it I google how to install what I need on ubuntu. <span class="in">`pip`</span> can be installed as follows.</span>
+<span id="cb8-65"><a href="#cb8-65" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-66"><a href="#cb8-66" aria-hidden="true" tabindex="-1"></a><span class="co"># install pip</span></span>
+<span id="cb8-67"><a href="#cb8-67" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install python3-pip</span>
+<span id="cb8-68"><a href="#cb8-68" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-69"><a href="#cb8-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-70"><a href="#cb8-70" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Julia can be installed in the software center if you search for it.</span>
+<span id="cb8-71"><a href="#cb8-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-72"><a href="#cb8-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Latex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extention as my TeX editor.</span>
+<span id="cb8-73"><a href="#cb8-73" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb8-74"><a href="#cb8-74" aria-hidden="true" tabindex="-1"></a><span class="co"># install texlive full</span></span>
+<span id="cb8-75"><a href="#cb8-75" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install texlive-full</span>
+<span id="cb8-76"><a href="#cb8-76" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb8-77"><a href="#cb8-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-78"><a href="#cb8-78" aria-hidden="true" tabindex="-1"></a><span class="fu">## Software and IDEs</span></span>
+<span id="cb8-79"><a href="#cb8-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-80"><a href="#cb8-80" aria-hidden="true" tabindex="-1"></a>In terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software. </span>
+<span id="cb8-81"><a href="#cb8-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-82"><a href="#cb8-82" aria-hidden="true" tabindex="-1"></a>For other software you can install similarly if it isn't in the software store. Many apps are able to install right in the software center if you search its there. For example:</span>
+<span id="cb8-83"><a href="#cb8-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-84"><a href="#cb8-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Visual Studio Code</span>
+<span id="cb8-85"><a href="#cb8-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Zotero</span>
+<span id="cb8-86"><a href="#cb8-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Zoom</span>
+<span id="cb8-87"><a href="#cb8-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Slack</span>
+<span id="cb8-88"><a href="#cb8-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Todoist</span>
+<span id="cb8-89"><a href="#cb8-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>etc.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 
