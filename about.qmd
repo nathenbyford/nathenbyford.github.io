@@ -1,16 +1,22 @@
 ---
-title: "about"
+title: "Nathen Byford"
+image: Pictures/Portrait_sq.jpeg
+format: 
+    html: 
+        toc: false
 ---
 
-### I'm Nate Byford,
+## Hello there!
 
-A graduate student at Baylor University in the department of Statistical Sciences. I obtained my undergraduate B.S. in statistics at Baylor University as well in 2022.
+I'm Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.
 
-When I'm not in my office taking care of business, whether that be homework, studying, teaching, or consulting work. I can be found outside mountain biking or hiking in nearby Cameron Park. I also play the guitar and bass and can be found gigging on occasion around town or on campus.
+Outside of academia, you'll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I'm also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.
 
-My primary interests are utilizing statistical methods to solve real world problems and make the world a safer place. Since I've always been interested in computers and other technology type of things I'm particularly interested in finding applications for statistics in cyber security. I also enjoy data visualization and data modeling, since I can do all that on my computer and compare different plots or models to get the best fit for the problem at hand.
+My primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I'm particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.
 
+In addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.
 
+I'm always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you'd like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!
 
 
 

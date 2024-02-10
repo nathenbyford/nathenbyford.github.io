@@ -13,10 +13,8 @@ website:
         menu: 
           - current_projects.qmd
           - past_projects.qmd
-      - text: "Notes"
-        menu: 
-          - theory-notes.qmd
-          - linux.qmd
+      - text: "Blog"
+        file: blog/index.qmd
       - text: "About"
         file: about.qmd
     right:

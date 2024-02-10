@@ -25,5 +25,17 @@
   },
   "linux.qmd": {
     "linux.html": "2ba40c96"
+  },
+  "blog.qmd": {
+    "blog.html": "d73a8e15"
+  },
+  "posts/linux.qmd": {
+    "linux.html": "52a60bb0"
+  },
+  "blog/index.qmd": {
+    "index.html": "535beed1"
+  },
+  "blog/posts/linux.qmd": {
+    "linux.html": "4568339a"
   }
 }

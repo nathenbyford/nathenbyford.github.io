@@ -1,12 +1,14 @@
 ---
 title: "Linux for statistics"
-description: "Post description"
-author: "Nathen Byford"
-date: "1/15/2024"
+description: "Quick start guide for how to setup Linux for data science and statistical work."
 categories:
   - linux
   - software
   - code
+author: "Nathen Byford"
+date: "1/15/2024"
+date-modified: "2/10/2024"
+image: images/cmd_line.jpg
 format:
     html:
         code-tools: true
@@ -16,7 +18,7 @@ format:
 
 With so many linux distributions available, what operating system to choose is a big task. For those that don't know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check [here](https://en.wikipedia.org/wiki/List_of_Linux_distributions). Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system. 
 
-I've opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years.
+I've opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version.
 
 ## Post install
 
