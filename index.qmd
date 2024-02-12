@@ -2,9 +2,9 @@
 title: "Welcome!"
 toc: false
 about:
-  template: trestles
+  template: solana
   image: Pictures/about.jpeg
-  image-shape: round
+  image-shape: rounded
   links:
     - icon: linkedin
       text: LinkedIn
@@ -30,3 +30,12 @@ My goals are to apply statistics to real world problems in the area of cybersecu
 * Data visualization, 
 * Anomaly detection, and 
 * Count data modeling.
+
+---
+## Education
+
+**Baylor University** | Waco, TX  
+M.S. in Statistics - Dec. 2023 
+
+**Baylor University** | Waco, TX  
+B.S. in Statistics - May 2021
