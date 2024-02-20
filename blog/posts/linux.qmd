@@ -70,6 +70,23 @@ Aside from the tidyverse here are some other helpful R packages that I like to u
 - `gtsummary`: Extending `gt` with more table options.
 - `readxl`: For reading in Microsoft Excel data.
 - `latex2exp`: To label plots from `ggplot2` with TeX formating, especialy helpful for math symbols in axes.
+- `rstan` or `rjags`: For Bayesian statistics.
+
+### Bayesian package setup
+
+To get `rstan` to work on any system you need to install `rtools` and other dependencies. This is no different on linux. The `rstan` [wiki/setup page](https://github.com/stan-dev/rstan/wiki/Configuring-C-Toolchain-for-Linux) has everything needed on there.
+
+Essentially, run the following lines for Ubuntu LTS systems and `rstan` should be up and running.
+
+```{bash}
+# Add Michael Rutter's c2d4u4.0 PPA (and rrutter4.0 for CRAN builds too)
+sudo add-apt-repository ppa:marutter/rrutter4.0
+sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
+sudo apt update
+sudo apt install r-cran-rstan
+```
+
+For `rjags`, JAGS will need to installed separatly from R. To do so it can be downloaded from their [sourceforge page](https://mcmc-jags.sourceforge.io/), note that if you are not using Ubuntu or Debian, JAGS may not be available unless compiled from source.
 
 ## Other lanuages
 
