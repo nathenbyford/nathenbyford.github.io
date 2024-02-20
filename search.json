@@ -1,5 +1,110 @@
 [
   {
+    "objectID": "earthquake.html",
+    "href": "earthquake.html",
+    "title": "Earthquake project",
+    "section": "",
+    "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
+  },
+  {
+    "objectID": "earthquake.html#project-goal",
+    "href": "earthquake.html#project-goal",
+    "title": "Earthquake project",
+    "section": "",
+    "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
+  },
+  {
+    "objectID": "earthquake.html#the-data",
+    "href": "earthquake.html#the-data",
+    "title": "Earthquake project",
+    "section": "The data",
+    "text": "The data"
+  },
+  {
+    "objectID": "current_projects.html",
+    "href": "current_projects.html",
+    "title": "Current Projects",
+    "section": "",
+    "text": "Baylor Quarto Theme\nClean and reproducable presentation template for making reveal.js presentations with quarto. Theme includes Baylor specific design ques and other helpful extentions."
+  },
+  {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "Skilled Statistician interested in applying statistics and data science techniques to analyze data and research applications to build a safer world.\n\n\n\nGraduate Teaching Assistant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2022 - Present\n\nStatistical Consultant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2023 - Present\n\nUndergraduate Researcher\n\nOregon State University\n\n\nCorvallis, OR | June 2021 - August 2021\n\nSummer Research Fellow\n\nBaylor University | MoWaTER Project\n\n\nRemote | June 2020 - August 2020\n\n\n\n\n\n\nMaster of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
+  },
+  {
+    "objectID": "Resume.html#work-experience",
+    "href": "Resume.html#work-experience",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "Graduate Teaching Assistant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2022 - Present\n\nStatistical Consultant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2023 - Present\n\nUndergraduate Researcher\n\nOregon State University\n\n\nCorvallis, OR | June 2021 - August 2021\n\nSummer Research Fellow\n\nBaylor University | MoWaTER Project\n\n\nRemote | June 2020 - August 2020"
+  },
+  {
+    "objectID": "Resume.html#education",
+    "href": "Resume.html#education",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "Master of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
+  },
+  {
+    "objectID": "about.html#hello-there",
+    "href": "about.html#hello-there",
+    "title": "Nathen Byford",
+    "section": "",
+    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Nathen’s Blog",
+    "section": "",
+    "text": "Linux for statistics\n\n\n\n\n\n\n\nlinux\n\n\nsoftware\n\n\ncode\n\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/linux.html",
+    "href": "blog/posts/linux.html",
+    "title": "Linux for statistics",
+    "section": "",
+    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version."
+  },
+  {
+    "objectID": "blog/posts/linux.html#operating-system",
+    "href": "blog/posts/linux.html#operating-system",
+    "title": "Linux for statistics",
+    "section": "",
+    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version."
+  },
+  {
+    "objectID": "blog/posts/linux.html#post-install",
+    "href": "blog/posts/linux.html#post-install",
+    "title": "Linux for statistics",
+    "section": "Post install",
+    "text": "Post install\n\nR and tidyverse install\nSince Ubuntu doesn’t have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.\nTo do this copy and past the following code into the terminal as a user with sudo access.\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg\nNext we add the R sources to the sources that apt will look through by running the following in the terminal.\necho \"deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/\" | sudo tee -a /etc/apt/sources.list.d/r-project.list\nNow that we have added cran to apt as a source we want to update the source list in apt using apt update.\nsudo apt update\nThen finally installing R we can simply run the following in the terminal to install the latest version of R.\nsudo apt install r-base\nNow the most recent version of R should be install this can be checked by running R in your terminal or by typing R --version in the terminal.\n\n\nTidyverse and dependencies\nBefore installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.\nsudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev\nAfter the dependencies are installed using R and install.packages() we can install the tidyverse and any other packages you need.\n\n\nAdditional R packages\nAside from the tidyverse here are some other helpful R packages that I like to use.\n\nquarto: For report and presentation creation.\ngt: For making high quality tables for reports.\ngtsummary: Extending gt with more table options.\nreadxl: For reading in Microsoft Excel data.\nlatex2exp: To label plots from ggplot2 with TeX formating, especialy helpful for math symbols in axes.\nrstan or rjags: For Bayesian statistics.\n\n\n\nBayesian package setup\nTo get rstan to work on any system you need to install rtools and other dependencies. This is no different on linux. The rstan wiki/setup page has everything needed on there.\nEssentially, run the following lines for Ubuntu LTS systems and rstan should be up and running.\n# Add Michael Rutter's c2d4u4.0 PPA (and rrutter4.0 for CRAN builds too)\nsudo add-apt-repository ppa:marutter/rrutter4.0\nsudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+\nsudo apt update\nsudo apt install r-cran-rstan\nFor rjags, JAGS will need to installed separatly from R. To do so it can be downloaded from their sourceforge page, note that if you are not using Ubuntu or Debian, JAGS may not be available unless compiled from source."
+  },
+  {
+    "objectID": "blog/posts/linux.html#other-lanuages",
+    "href": "blog/posts/linux.html#other-lanuages",
+    "title": "Linux for statistics",
+    "section": "Other lanuages",
+    "text": "Other lanuages\n\nPython 3 is already installed on linux, I don’t use it much, but when I need it I Google how to install what I need on Ubuntu. pip can be installed as follows.\n\n# install pip\nsudo apt install python3-pip\n\nJulia can be installed in the software center if you search for it.\nLatex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extension as my TeX editor.\n\n# install texlive full\nsudo apt install texlive-full"
+  },
+  {
+    "objectID": "blog/posts/linux.html#software-and-ides",
+    "href": "blog/posts/linux.html#software-and-ides",
+    "title": "Linux for statistics",
+    "section": "Software and IDEs",
+    "text": "Software and IDEs\nIn terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for Ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software.\nFor other software you can install similarly if it isn’t in the software store. Many apps are able to install right in the software center if you search its there. For example:\n\nVisual Studio Code\nZotero\nZoom\nSlack\nTodoist\netc."
+  },
+  {
     "objectID": "theory-notes.html",
     "href": "theory-notes.html",
     "title": "Theory of Statistics notes",
@@ -70,104 +175,6 @@
     "text": "Anomaly Detection\n\nAs a part of STA 5360 at Baylor university my final project was comparing different approaches to anomaly detection. These methods included a simple yet good linear model method, seasonal time series decomposition using loess (STL), isolation forests, and a neural network.\n\n\nBenford’s Law\n\nAnalysis of statistical tests that can be used to test for Benford’s Law. As a part of RUSIS @ OSU 2021.\n\n\nMoWaTER\n\nAnalysis of Water filter efficiency and cleanliness at Denver water’s foothill water treatment plant. As a part of MoWaTER summer research group @ Baylor Univesity 2020."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
-  },
-  {
-    "objectID": "index.html#im-nathen-byford",
-    "href": "index.html#im-nathen-byford",
-    "title": "Welcome!",
-    "section": "",
-    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
-  },
-  {
-    "objectID": "current_projects.html",
-    "href": "current_projects.html",
-    "title": "Current Projects",
-    "section": "",
-    "text": "Baylor Quarto Theme\nClean and reproducable presentation template for making reveal.js presentations with quarto. Theme includes Baylor specific design ques and other helpful extentions."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Nathen’s Blog",
-    "section": "",
-    "text": "Linux for statistics\n\n\n\n\n\n\n\nlinux\n\n\nsoftware\n\n\ncode\n\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Nathen Byford",
-    "section": "",
-    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
-  },
-  {
-    "objectID": "about.html#hello-there",
-    "href": "about.html#hello-there",
-    "title": "Nathen Byford",
-    "section": "",
-    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
-  },
-  {
-    "objectID": "blog/posts/linux.html",
-    "href": "blog/posts/linux.html",
-    "title": "Linux for statistics",
-    "section": "",
-    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version."
-  },
-  {
-    "objectID": "blog/posts/linux.html#operating-system",
-    "href": "blog/posts/linux.html#operating-system",
-    "title": "Linux for statistics",
-    "section": "",
-    "text": "With so many linux distributions available, what operating system to choose is a big task. For those that don’t know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check here. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version."
-  },
-  {
-    "objectID": "blog/posts/linux.html#post-install",
-    "href": "blog/posts/linux.html#post-install",
-    "title": "Linux for statistics",
-    "section": "Post install",
-    "text": "Post install\n\nR and tidyverse install\nSince Ubuntu doesn’t have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.\nTo do this copy and past the following code into the terminal as a user with sudo access.\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg\nNext we add the R sources to the sources that apt will look through by running the following in the terminal.\necho \"deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/\" | sudo tee -a /etc/apt/sources.list.d/r-project.list\nNow that we have added cran to apt as a source we want to update the source list in apt using apt update.\nsudo apt update\nThen finally installing R we can simply run the following in the terminal to install the latest version of R.\nsudo apt install r-base\nNow the most recent version of R should be install this can be checked by running R in your terminal or by typing R --version in the terminal.\n\n\nTidyverse and dependencies\nBefore installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.\nsudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev\nAfter the dependencies are installed using R and install.packages() we can install the tidyverse and any other packages you need.\n\n\nAdditional R packages\nAside from the tidyverse here are some other helpful R packages that I like to use.\n\nquarto: For report and presentation creation.\ngt: For making high quality tables for reports.\ngtsummary: Extending gt with more table options.\nreadxl: For reading in Microsoft Excel data.\nlatex2exp: To label plots from ggplot2 with TeX formating, especialy helpful for math symbols in axes."
-  },
-  {
-    "objectID": "blog/posts/linux.html#other-lanuages",
-    "href": "blog/posts/linux.html#other-lanuages",
-    "title": "Linux for statistics",
-    "section": "Other lanuages",
-    "text": "Other lanuages\n\nPython 3 is already installed on linux, I don’t use it much, but when I need it I Google how to install what I need on Ubuntu. pip can be installed as follows.\n\n# install pip\nsudo apt install python3-pip\n\nJulia can be installed in the software center if you search for it.\nLatex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extension as my TeX editor.\n\n# install texlive full\nsudo apt install texlive-full"
-  },
-  {
-    "objectID": "blog/posts/linux.html#software-and-ides",
-    "href": "blog/posts/linux.html#software-and-ides",
-    "title": "Linux for statistics",
-    "section": "Software and IDEs",
-    "text": "Software and IDEs\nIn terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for Ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software.\nFor other software you can install similarly if it isn’t in the software store. Many apps are able to install right in the software center if you search its there. For example:\n\nVisual Studio Code\nZotero\nZoom\nSlack\nTodoist\netc."
-  },
-  {
-    "objectID": "earthquake.html",
-    "href": "earthquake.html",
-    "title": "Earthquake project",
-    "section": "",
-    "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
-  },
-  {
-    "objectID": "earthquake.html#project-goal",
-    "href": "earthquake.html#project-goal",
-    "title": "Earthquake project",
-    "section": "",
-    "text": "Use the United States Geological Survey (USGS) Application Programming Interface (API) to gather data on earthquakes and make an interactive application to show where earthquakes have occurred and other related data."
-  },
-  {
-    "objectID": "earthquake.html#the-data",
-    "href": "earthquake.html#the-data",
-    "title": "Earthquake project",
-    "section": "The data",
-    "text": "The data"
-  },
-  {
     "objectID": "linux.html",
     "href": "linux.html",
     "title": "Linux for statistics",
@@ -203,24 +210,24 @@
     "text": "Software and IDEs\nIn terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for Ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software.\nFor other software you can install similarly if it isn’t in the software store. Many apps are able to install right in the software center if you search its there. For example:\n\nVisual Studio Code\nZotero\nZoom\nSlack\nTodoist\netc."
   },
   {
-    "objectID": "Resume.html",
-    "href": "Resume.html",
-    "title": "Nathen Byford",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
     "section": "",
-    "text": "Skilled Statistician interested in applying statistics and data science techniques to analyze data and research applications to build a safer world.\n\n\n\nGraduate Teaching Assistant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2022 - Present\n\nStatistical Consultant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2023 - Present\n\nUndergraduate Researcher\n\nOregon State University\n\n\nCorvallis, OR | June 2021 - August 2021\n\nSummer Research Fellow\n\nBaylor University | MoWaTER Project\n\n\nRemote | June 2020 - August 2020\n\n\n\n\n\n\nMaster of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
   },
   {
-    "objectID": "Resume.html#work-experience",
-    "href": "Resume.html#work-experience",
-    "title": "Nathen Byford",
+    "objectID": "index.html#im-nathen-byford",
+    "href": "index.html#im-nathen-byford",
+    "title": "Welcome!",
     "section": "",
-    "text": "Graduate Teaching Assistant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2022 - Present\n\nStatistical Consultant\n\nBaylor University | Department of Statistical Science\n\n\nWaco, TX | August 2023 - Present\n\nUndergraduate Researcher\n\nOregon State University\n\n\nCorvallis, OR | June 2021 - August 2021\n\nSummer Research Fellow\n\nBaylor University | MoWaTER Project\n\n\nRemote | June 2020 - August 2020"
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
   },
   {
-    "objectID": "Resume.html#education",
-    "href": "Resume.html#education",
-    "title": "Nathen Byford",
-    "section": "",
-    "text": "Master of Science | Baylor University\n\nStatistics\n\n\nMay 2022 - Present\n\nBachelor of Science | Baylor University\n\nStatistics\n\n\nMay 2022"
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Welcome!",
+    "section": "Education",
+    "text": "Education\nBaylor University | Waco, TX\nM.S. in Statistics - Dec. 2023\nBaylor University | Waco, TX\nB.S. in Statistics - May 2021"
   }
 ]
