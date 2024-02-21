@@ -4,23 +4,29 @@ description: "Quick start guide for how to setup Linux for data science and stat
 categories:
   - linux
   - software
-  - code
 author: "Nathen Byford"
 date: "1/15/2024"
-date-modified: "2/10/2024"
+date-modified: "2/21/2024"
 image: images/cmd_line.jpg
 format:
     html:
         code-tools: true
+        code-overflow: wrap
 ---
+
+This guide will walk you through how to setup a workstation for statistics and data science on linux. The key parts of the guide will go over how to install the most recent version of R and some of the dependecies needed to install commonly used packages like the tidyverse. This guide will also continue to be updated as I think of things that need to be added for future reference.
 
 ## Operating system
 
-With so many linux distributions available, what operating system to choose is a big task. For those that don't know, there are over 600 different linux distributions being actively maintained. To learn more about linux distributions check [here](https://en.wikipedia.org/wiki/List_of_Linux_distributions). Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. It all boils down to what package manager the distributions uses and the updating structure of the system. 
+The first step to setup a workstation for statistics and data science in linux is to decide which operating sustem to choose. You might be thinking, but I thought linux was the operatigns system? If you don't know, there are over 600 different linux "distributions" being actively maintained. These distributions are all linux operating systems, but each is a bit different in how they install programs and operate. Some are based off of others and some are alone , to learn more about linux distributions check out the wikipedia article [here](https://en.wikipedia.org/wiki/List_of_Linux_distributions).
+
+With many linux distributions available, deciding what operating system to choose is a big task. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. These 3 that most are based on are Debian, Red Hat, and Arch. It all boils down to what package manager the distributions uses and the updating structure of the system. 
 
 I've opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version.
 
 ## Post install
+
+There are many guides that show the process of installing linux on your pc, so I will not go over that on here. But once you have Ubuntu LTS installed, the following steps can be used to setup various software that we use for statistics or data science.
 
 ### R and tidyverse install
 
@@ -70,6 +76,7 @@ Aside from the tidyverse here are some other helpful R packages that I like to u
 - `gtsummary`: Extending `gt` with more table options.
 - `readxl`: For reading in Microsoft Excel data.
 - `latex2exp`: To label plots from `ggplot2` with TeX formating, especialy helpful for math symbols in axes.
+- `rjags` or `rstan`: Bayesian modeling in R.
 
 ## Other lanuages
 
@@ -89,13 +96,11 @@ sudo apt install texlive-full
 
 ## Software and IDEs
 
-In terms of installing applications for coding like Rstudio can be installed from their website. Just find the download for Ubuntu 22 and then it installs much like windows or mac. Open the downloaded file in the software store and click install to install the software. 
-
-For other software you can install similarly if it isn't in the software store. Many apps are able to install right in the software center if you search its there. For example:
+In terms of installing applications for coding like Rstudio, these can be installed from their website. Just find the download for Ubuntu 22 and then open the installer and it will install through the software center.  Many other popular apps that are a part of everyday life can also be installed similarly, some are even in the software center and only a search away. Some examples are: 
 
 - Visual Studio Code
+- TeXstudio/TeXworks
 - Zotero
 - Zoom
 - Slack
 - Todoist
-- etc.
