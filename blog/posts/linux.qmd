@@ -71,7 +71,7 @@ After the dependencies are installed using R and `install.packages()` we can ins
 
 To install `JAGS` for use with `rjags` the following command can be ran.
 
-```{bash}
+```bash
 sudo apt-get update && sudo apt-get install jags
 ```
 
