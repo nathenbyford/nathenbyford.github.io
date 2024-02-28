@@ -67,6 +67,15 @@ sudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontc
 
 After the dependencies are installed using R and `install.packages()` we can install the tidyverse and any other packages you need.
 
+### Bayesian mcmc samplers
+
+To install `JAGS` for use with `rjags` the following command can be ran.
+
+```{bash}
+sudo apt-get update && sudo apt-get install jags
+```
+
+
 ### Additional R packages
 
 Aside from the tidyverse here are some other helpful R packages that I like to use.
