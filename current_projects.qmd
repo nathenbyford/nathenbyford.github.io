@@ -13,3 +13,7 @@ title: "Current Projects"
 ### [Baylor Quarto Theme](https://github.com/nathenbyford/Baylor_theme)
 
 Clean and reproducable presentation template for making reveal.js presentations with quarto. Theme includes Baylor specific design ques and other helpful extentions.
+
+### [Polar bear spatio-temporal forcasting project](bears.qmd)
+
+Final project for Spatial statistics (STA 5377) looking into spatio-temporal forcasting methods on [USGS Southern Beaufort Sea Polar Bear Data](https://alaska.usgs.gov/products/data.php?dataid=193).

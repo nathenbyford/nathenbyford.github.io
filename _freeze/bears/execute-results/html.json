@@ -1,0 +1,16 @@
+{
+  "hash": "1707d19dbdaac47dd8d12e5922857456",
+  "result": {
+    "markdown": "---\ntitle: \"Spatial Project EDA\"\nauthor: \"Nathen Byford\"\n---\n\n\n\n\n# Introduction\n\nThe USGS provides data of polar bear migration in Alaska. The data set includes both a spatial and temporal component so I'm purposing using a spatio-temporal forecasting model to predict the future locations of the polar bears. \n\nThe data contains 47,594 observations of 7 variables. These variables are; \n\n- Bear: ID of the beir being observe of the 63,\n- Type: type of observation, Argos or GPS,\n- Date,\n- Time, \n- Latitude,\n- Longitude, and\n- Location quality.\n\n<!-- ![Polar bear and cubs](adult-female-2-cubs.jpg){width=60%} -->\n![Polar bears](Pictures/two-polar-bears-fighting.png){width=60%}\n\n# Map\n\n\n::: {.cell fig.format='png'}\n::: {.cell-output-display}\n![](bears_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n## Analysis of each bear\n\n\n::: {.cell layout-align=\"center\" fig.format='png'}\n::: {.cell-output-display}\n![](bears_files/figure-html/unnamed-chunk-3-1.png){fig-align='center' width=672}\n:::\n:::\n\n\n## Animation\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](bears_files/figure-html/animation-1.gif)\n:::\n:::\n",
+    "supporting": [
+      "bears_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

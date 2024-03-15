@@ -37,5 +37,8 @@
   },
   "blog/posts/linux.qmd": {
     "linux.html": "4568339a"
+  },
+  "bears.qmd": {
+    "bears.html": "f72a26c7"
   }
 }
