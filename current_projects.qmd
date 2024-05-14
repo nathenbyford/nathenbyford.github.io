@@ -14,6 +14,6 @@ title: "Current Projects"
 
 Clean and reproducable presentation template for making reveal.js presentations with quarto. Theme includes Baylor specific design ques and other helpful extentions.
 
-### [Polar bear spatio-temporal forcasting project](https://www.natebyford.com/spatial_project/)
+### [Spatial Project](https://www.natebyford.com/spatial_project/)
 
-Final project for Spatial statistics (STA 5377) looking into spatio-temporal forcasting methods on [USGS Southern Beaufort Sea Polar Bear Data](https://alaska.usgs.gov/products/data.php?dataid=193).
+Final project for Spatial statistics (STA 5377) looking into Covid-19 and lung cancer counts with spatial under reporting model.

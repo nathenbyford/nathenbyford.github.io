@@ -8,6 +8,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/posts/presentations.html",
       "/blog/posts/linux.html"
     ]
   }

@@ -62,7 +62,7 @@ Now the most recent version of R should be install this can be checked by runnin
 Before installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.
 
 ```bash
-sudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+sudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libcairo2-dev
 ```
 
 After the dependencies are installed using R and `install.packages()` we can install the tidyverse and any other packages you need.
