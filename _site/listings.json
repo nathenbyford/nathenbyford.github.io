@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/linux.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/linux.html"
+    ]
+  }
+]

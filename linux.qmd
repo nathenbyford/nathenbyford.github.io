@@ -1,5 +1,12 @@
 ---
 title: "Linux for statistics"
+description: "Post description"
+author: "Nathen Byford"
+date: "1/15/2024"
+categories:
+  - linux
+  - software
+  - code
 format:
     html:
         code-tools: true
@@ -54,10 +61,13 @@ After the dependencies are installed using R and `install.packages()` we can ins
 
 ### Additional R packages
 
-Aside from the tidyverse some other helpful R packages are as follows.
+Aside from the tidyverse here are some other helpful R packages that I like to use.
 
-- quarto: For report and presentation creation.
-- 
+- `quarto`: For report and presentation creation.
+- `gt`: For making high quality tables for reports.
+- `gtsummary`: Extending `gt` with more table options.
+- `readxl`: For reading in Microsoft Excel data.
+- `latex2exp`: To label plots from `ggplot2` with TeX formating, especialy helpful for math symbols in axes.
 
 ## Other lanuages
 

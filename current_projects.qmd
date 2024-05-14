@@ -12,4 +12,8 @@ title: "Current Projects"
 
 ### [Baylor Quarto Theme](https://github.com/nathenbyford/Baylor_theme)
 
-Presentation theme for making reveal.js presentations. The theme includes Baylor University colors and other theme elements.
+Clean and reproducable presentation template for making reveal.js presentations with quarto. Theme includes Baylor specific design ques and other helpful extentions.
+
+### [Spatial Project](https://www.natebyford.com/spatial_project/)
+
+Final project for Spatial statistics (STA 5377) looking into Covid-19 and lung cancer counts with spatial under reporting model.

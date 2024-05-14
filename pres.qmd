@@ -1,0 +1,6 @@
+---
+title: "Presentations"
+toc: false
+---
+
+- [Bayes class paper presentation](https://www.natebyford.com/bayes-paper-pres/)

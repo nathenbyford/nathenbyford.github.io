@@ -13,10 +13,9 @@ website:
         menu: 
           - current_projects.qmd
           - past_projects.qmd
-      - text: "Notes"
-        menu: 
-          - theory-notes.qmd
-          - linux.qmd
+          - pres.qmd
+      - text: "Blog"
+        file: blog/index.qmd
       - text: "About"
         file: about.qmd
     right:
@@ -30,8 +29,8 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: darkly
+      light: yeti
+      dark: [yeti, theme-dark.scss]
     css: styles.css
     toc: true
     mainfont: sans-serif

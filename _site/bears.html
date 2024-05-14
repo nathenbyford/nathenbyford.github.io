@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Nathen Byford">
 
-<title>Nate Byford - Welcome!</title>
+<title>Nate Byford - Spatial Project EDA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -65,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -133,65 +135,99 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
-<!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Welcome!</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://www.linkedin.com/in/nathen-byford/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/nathenbyford" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:nathen_byford1@baylor.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="im-nathen-byford" class="level2">
-<h2 data-anchor-id="im-nathen-byford">I’m Nathen Byford,</h2>
-<p>Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.</p>
-<hr>
-<section id="my-areas-of-interest-are" class="level3">
-<h3 data-anchor-id="my-areas-of-interest-are">My areas of interest are</h3>
-<ul>
-<li>Computational statistics,</li>
-<li>Machine learning,</li>
-<li>Data processing,</li>
-<li>Data visualization,</li>
-<li>Anomaly detection, and</li>
-<li>Count data modeling.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>Baylor University</strong> | Waco, TX<br>
-M.S. in Statistics - Dec.&nbsp;2023</p>
-<p><strong>Baylor University</strong> | Waco, TX<br>
-B.S. in Statistics - May 2021</p>
-
-
-</section>
-</main></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#map" id="toc-map" class="nav-link" data-scroll-target="#map">Map</a>
+  <ul class="collapse">
+  <li><a href="#analysis-of-each-bear" id="toc-analysis-of-each-bear" class="nav-link" data-scroll-target="#analysis-of-each-bear">Analysis of each bear</a></li>
+  <li><a href="#animation" id="toc-animation" class="nav-link" data-scroll-target="#animation">Animation</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
-    <img src="Pictures/about.jpeg" class="about-image
-  rounded " style="width: 15em;">
-  </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Spatial Project EDA</h1>
 </div>
- <!-- /main -->
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nathen Byford </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The USGS provides data of polar bear migration in Alaska. The data set includes both a spatial and temporal component so I’m purposing using a spatio-temporal forecasting model to predict the future locations of the polar bears.</p>
+<p>The data contains 47,594 observations of 7 variables. These variables are;</p>
+<ul>
+<li>Bear: ID of the beir being observe of the 63,</li>
+<li>Type: type of observation, Argos or GPS,</li>
+<li>Date,</li>
+<li>Time,</li>
+<li>Latitude,</li>
+<li>Longitude, and</li>
+<li>Location quality.</li>
+</ul>
+<!-- ![Polar bear and cubs](adult-female-2-cubs.jpg){width=60%} -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Pictures/two-polar-bears-fighting.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption class="figure-caption">Polar bears</figcaption>
+</figure>
+</div>
+</section>
+<section id="map" class="level1">
+<h1>Map</h1>
+<div class="cell" data-fig.format="png">
+<div class="cell-output-display">
+<p><img src="bears_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<section id="analysis-of-each-bear" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-of-each-bear">Analysis of each bear</h2>
+<div class="cell" data-layout-align="center" data-fig.format="png">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bears_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="animation" class="level2">
+<h2 class="anchored" data-anchor-id="animation">Animation</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="bears_files/figure-html/animation-1.gif" class="img-fluid"></p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -327,6 +363,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
