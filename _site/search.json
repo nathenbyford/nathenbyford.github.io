@@ -333,7 +333,7 @@
     "href": "blog/index.html",
     "title": "Nathen’s Blog",
     "section": "",
-    "text": "Linux for statistics\n\n\n\n\n\n\n\nlinux\n\n\nsoftware\n\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
+    "text": "Building technical presentations with Quarto\n\n\n\n\n\n\n\ncommunication\n\n\npresentating\n\n\nQuarto\n\n\n\n\nMy tips, tricks, and opinions on how to best produce technical presentations with quarto.\n\n\n\n\n\n\nMay 14, 2024\n\n\nNathen Byford\n\n\n\n\n\n\n  \n\n\n\n\nLinux for statistics\n\n\n\n\n\n\n\nlinux\n\n\nsoftware\n\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#hello-there",
@@ -376,5 +376,19 @@
     "title": "Presentations",
     "section": "",
     "text": "Bayes class paper presentation"
+  },
+  {
+    "objectID": "blog/posts/presentations.html",
+    "href": "blog/posts/presentations.html",
+    "title": "Building technical presentations with Quarto",
+    "section": "",
+    "text": "Making technical presentations can be a difficult task, this difficulty is increased when using a software that you are unfamiliar with. I hope in this post to make it easier for anyone wanting to produce techincal presentations for research or courses in Quarto."
+  },
+  {
+    "objectID": "blog/posts/presentations.html#columns",
+    "href": "blog/posts/presentations.html#columns",
+    "title": "Building technical presentations with Quarto",
+    "section": "Columns",
+    "text": "Columns"
   }
 ]

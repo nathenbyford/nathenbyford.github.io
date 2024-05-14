@@ -1,0 +1,25 @@
+---
+title: "Building technical presentations with Quarto"
+description: "My tips, tricks, and opinions on how to best produce technical presentations with quarto."
+categories:
+  - communication
+  - presentating
+  - Quarto
+author: "Nathen Byford"
+date: "5/14/2024"
+date-modified: today
+image: images/better_pres.png
+format:
+    html:
+        code-tools: true
+        code-overflow: wrap
+---
+
+Making technical presentations can be a difficult task, this difficulty is increased when using a software that you are unfamiliar with. I hope in this post to make it easier for anyone wanting to produce techincal presentations for research or courses in Quarto.
+
+# What is Quarto and Reveal.js
+
+We should start by getting a grasp of what this software is and how it works. Quarto is a markdown package and file type that allows users to write text alongside math and code. Quarto supports `R`, `python`, and `julia` just to name a few of the coding languages supported. Quarto documents can be compuled or knitted into .pdf, .html, and other formats. The focus of this blog post is specifically for it's ability to produce presentations with reveal.js.
+
+According to the reveal.js website and documentation, "Reveal.js is an open source HTML presentation framework." Simply put it makes presentations that are bult on HTML and are viewed in a web browser. Since the presentation is built on HTML it is able to have reactive elements that you can interact with as well as gifs and videos.
+

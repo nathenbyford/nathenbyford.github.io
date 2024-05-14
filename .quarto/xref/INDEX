@@ -43,5 +43,8 @@
   },
   "pres.qmd": {
     "pres.html": "c0e37afd"
+  },
+  "blog/posts/presentations.qmd": {
+    "presentations.html": "59bc2501"
   }
 }
