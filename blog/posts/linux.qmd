@@ -113,3 +113,27 @@ In terms of installing applications for coding like Rstudio, these can be instal
 - Zoom
 - Slack
 - Todoist
+
+## Cloud Storage
+
+Some cloud storage solutions offer native linux clients like dropbox, but for most of us using Microsoft's OneDrive, Google Drive or Box are not so fortunate. There is an open source program that can be used to sync the system with cloud storage solutions.
+
+The software I use for this is called `rclone`, it can be installed using the terminal command
+
+```bash
+sudo apt install rclone -y
+```
+
+Then run 
+
+```bash
+rcone config
+```
+
+And follow the directions to setup a new remote for your cloud storage.
+
+Once the remote is setup you can create an empty directory to link the remote to. I like to set it up to be a directory in the root directory to keep it easy to find. Then the following code with your remote name and directory name will setup the remote at the new directory location.
+
+```bash
+rclone --vfs-cache-mode writes mount [remote_name]: ~/[directory] &
+```
