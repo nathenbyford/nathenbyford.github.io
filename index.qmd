@@ -19,7 +19,7 @@ about:
 
 ## I'm Nathen Byford,
 Nice to meet you! I'm a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. 
-My goals are to apply statistics to real world problems in the area of cybersecurity.
+I specialize in transforming complex datasets into actionable insights while empowering organizations to embrace statistical best practices. My mission is to bridge the gap between sophisticated data analysis and practical implementation, making advanced statistical concepts accessible and valuable for decision-makers.
 
 ---
 

@@ -8,11 +8,11 @@ format:
 
 ## Hello there!
 
-I'm Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.
+I'm Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University with a concentration in Data Science. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.
 
 Outside of academia, you'll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I'm also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.
 
-My primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I'm particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.
+My primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I'm particularly drawn to exploring adversarial areas that require rapid problem solving.
 
 In addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.
 
