@@ -46,5 +46,8 @@
   },
   "blog/posts/presentations.qmd": {
     "presentations.html": "59bc2501"
+  },
+  "pubs.qmd": {
+    "pubs.html": "6b34a09c"
   }
 }

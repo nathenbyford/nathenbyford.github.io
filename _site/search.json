@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. I specialize in transforming complex datasets into actionable insights while empowering organizations to embrace statistical best practices. My mission is to bridge the gap between sophisticated data analysis and practical implementation, making advanced statistical concepts accessible and valuable for decision-makers.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Nathen Byford",
     "section": "",
-    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
+    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University with a concentration in Data Science. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring adversarial areas that require rapid problem solving.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
   },
   {
     "objectID": "index.html#hi-im-nathen",
@@ -25,7 +25,7 @@
     "href": "index.html#im-nathen-byford",
     "title": "Welcome!",
     "section": "",
-    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. My goals are to apply statistics to real world problems in the area of cybersecurity.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
+    "text": "Nice to meet you! I’m a passionate statistician looking for opportunities to make the world a better and safer place using data science and statistical methods. I specialize in transforming complex datasets into actionable insights while empowering organizations to embrace statistical best practices. My mission is to bridge the gap between sophisticated data analysis and practical implementation, making advanced statistical concepts accessible and valuable for decision-makers.\n\n\n\n\nComputational statistics,\nMachine learning,\nData processing,\nData visualization,\nAnomaly detection, and\nCount data modeling."
   },
   {
     "objectID": "index.html#current-projects",
@@ -333,14 +333,14 @@
     "href": "blog/index.html",
     "title": "Nathen’s Blog",
     "section": "",
-    "text": "Building technical presentations with Quarto\n\n\n\n\n\n\n\ncommunication\n\n\npresentating\n\n\nQuarto\n\n\n\n\nMy tips, tricks, and opinions on how to best produce technical presentations with quarto.\n\n\n\n\n\n\nMay 14, 2024\n\n\nNathen Byford\n\n\n\n\n\n\n  \n\n\n\n\nLinux for statistics\n\n\n\n\n\n\n\nlinux\n\n\nsoftware\n\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
+    "text": "Building technical presentations with Quarto\n\n\n\n\n\n\ncommunication\n\n\npresentating\n\n\nQuarto\n\n\n\nMy tips, tricks, and opinions on how to best produce technical presentations with quarto.\n\n\n\n\n\nMay 14, 2024\n\n\nNathen Byford\n\n\n\n\n\n\n\n\n\n\n\n\nLinux for statistics\n\n\n\n\n\n\nlinux\n\n\nsoftware\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#hello-there",
     "href": "about.html#hello-there",
     "title": "Nathen Byford",
     "section": "",
-    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring the intersection of statistics and security, seeking innovative solutions to safeguard digital systems and data.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
+    "text": "I’m Nate Byford, a graduate student pursuing my Ph.D. in Statistical Sciences at Baylor University with a concentration in Data Science. I completed both my undergraduate B.S. and M.S. degrees in statistics at Baylor as well.\nOutside of academia, you’ll often find me immersed in outdoor adventures like mountain biking or hiking in nearby Cameron Park. I’m also passionate about music and enjoy playing the guitar and bass, occasionally performing gigs around town or on campus.\nMy primary academic interests revolve around applying statistical methods to tackle real-world challenges and enhance safety measures. With a keen interest in technology, I’m particularly drawn to exploring adversarial areas that require rapid problem solving.\nIn addition to my academic pursuits, I have experience in data visualization and modeling, leveraging computational tools to analyze complex datasets and optimize solutions.\nI’m always eager to connect with fellow enthusiasts and professionals in the field. Feel free to reach out if you’d like to discuss statistical methodologies, cyber security trends, or simply share outdoor adventure stories!"
   },
   {
     "objectID": "index.html#education",
@@ -382,7 +382,7 @@
     "href": "blog/posts/presentations.html",
     "title": "Building technical presentations with Quarto",
     "section": "",
-    "text": "Making technical presentations can be a difficult task, this difficulty is increased when using a software that you are unfamiliar with. I hope in this post to make it easier for anyone wanting to produce techincal presentations for research or courses in Quarto."
+    "text": "Making technical presentations can be a difficult task, this difficulty is increased when using a software that you are unfamiliar with. I hope in this post to make it easier for anyone wanting to produce techincal presentations for research or courses in Quarto.\n\nWhat is Quarto and Reveal.js\nWe should start by getting a grasp of what this software is and how it works. Quarto is a markdown package and file type that allows users to write text alongside math and code. Quarto supports R, python, and julia just to name a few of the coding languages supported. Quarto documents can be compuled or knitted into .pdf, .html, and other formats. The focus of this blog post is specifically for it’s ability to produce presentations with reveal.js.\nAccording to the reveal.js website and documentation, “Reveal.js is an open source HTML presentation framework.” Simply put it makes presentations that are bult on HTML and are viewed in a web browser. Since the presentation is built on HTML it is able to have reactive elements that you can interact with as well as gifs and videos."
   },
   {
     "objectID": "blog/posts/presentations.html#columns",
@@ -390,5 +390,54 @@
     "title": "Building technical presentations with Quarto",
     "section": "Columns",
     "text": "Columns"
+  },
+  {
+    "objectID": "pubs.html",
+    "href": "pubs.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Authors: Brittany J. Carnathan, Dinny Stevens, Swarna Shikha, Carson Slater, Nathen Byford, Rodney X. Sturdivant, Kuzy Zarzosa, W. Evan Braswell and Christie M. Sayes\nJ. Funct. Biomater. 2025, 16(3), 113\nAbstract: This study examines antimicrobial effects of surface-stabilized zero-valent iron nanoparticles (FeNPs) with three different coatings on six bacterial species. Using ordinal regression and generalized linear mixed models, we analyzed zone of inhibition data to compare bacterial sensitivity across treatments. Statistical analyses revealed significant differences in responses based on coating type and nanoparticle concentration. The concordance between both statistical approaches increases confidence in our findings that AA-FeNPs and CTAB-FeNPs exhibited superior antibacterial activity, with bacterial sensitivity varying systematically across species. This statistical framework supports the “designer nanoparticle” concept and provides a methodological foundation for future research.\n\nDOI\n\n\n\n\n\n\n\n\n\n\n\nCitation Information\n\n\n\nIf you use any of the materials presented on this page, please cite the corresponding publication."
+  },
+  {
+    "objectID": "pubs.html#journal-articles",
+    "href": "pubs.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Authors: Brittany J. Carnathan, Dinny Stevens, Swarna Shikha, Carson Slater, Nathen Byford, Rodney X. Sturdivant, Kuzy Zarzosa, W. Evan Braswell and Christie M. Sayes\nJ. Funct. Biomater. 2025, 16(3), 113\nAbstract: This study examines antimicrobial effects of surface-stabilized zero-valent iron nanoparticles (FeNPs) with three different coatings on six bacterial species. Using ordinal regression and generalized linear mixed models, we analyzed zone of inhibition data to compare bacterial sensitivity across treatments. Statistical analyses revealed significant differences in responses based on coating type and nanoparticle concentration. The concordance between both statistical approaches increases confidence in our findings that AA-FeNPs and CTAB-FeNPs exhibited superior antibacterial activity, with bacterial sensitivity varying systematically across species. This statistical framework supports the “designer nanoparticle” concept and provides a methodological foundation for future research.\n\nDOI\n\n\n\n\n\n\n\n\n\n\n\nCitation Information\n\n\n\nIf you use any of the materials presented on this page, please cite the corresponding publication."
+  },
+  {
+    "objectID": "pubs.html#conference-proceedings",
+    "href": "pubs.html#conference-proceedings",
+    "title": "Publications",
+    "section": "Conference Proceedings",
+    "text": "Conference Proceedings\n\n\nTitle of Conference Paper\nAuthors: Your Name, Co-author 5, Co-author 6\nConference Name, Location, Year\nAbstract: Brief summary of your paper and findings.\n\nPDF Slides Code"
+  },
+  {
+    "objectID": "pubs.html#preprints",
+    "href": "pubs.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\n\n\nTitle of Preprint\nAuthors: Your Name, Co-author 7, Co-author 8\narXiv:xxxx.xxxxx [category]\nAbstract: Brief summary of your preprint and findings.\n\nPDF arXiv Code"
+  },
+  {
+    "objectID": "pubs.html#book-chapters",
+    "href": "pubs.html#book-chapters",
+    "title": "Publications",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\n\nChapter Title\nAuthors: Your Name, Co-author 9\nBook: Book Title\nEditors: Editor 1, Editor 2\nPublisher: Publisher Name, Year, Pages\nAbstract: Brief summary of your chapter.\n\nPublisher Link"
+  },
+  {
+    "objectID": "pubs.html#technical-reports",
+    "href": "pubs.html#technical-reports",
+    "title": "Publications",
+    "section": "Technical Reports",
+    "text": "Technical Reports\n\n\nTitle of Report\nAuthors: Your Name, Co-author 10\nInstitution/Organization, Year, Report Number\nAbstract: Brief summary of your report.\n\nPDF Link\n\n\n\n\n\n\n\n\n\nCitation Information\n\n\n\nIf you use any of the materials presented on this page, please cite the corresponding publication."
+  },
+  {
+    "objectID": "blog/posts/linux.html#cloud-storage",
+    "href": "blog/posts/linux.html#cloud-storage",
+    "title": "Linux for statistics",
+    "section": "Cloud Storage",
+    "text": "Cloud Storage\nSome cloud storage solutions offer native linux clients like dropbox, but for most of us using Microsoft’s OneDrive, Google Drive or Box are not so fortunate. There is an open source program that can be used to sync the system with cloud storage solutions.\nThe software I use for this is called rclone, it can be installed using the terminal command\nsudo apt install rclone -y\nThen run\nrcone config\nAnd follow the directions to setup a new remote for your cloud storage.\nOnce the remote is setup you can create an empty directory to link the remote to. I like to set it up to be a directory in the root directory to keep it easy to find. Then the following code with your remote name and directory name will setup the remote at the new directory location.\nrclone --vfs-cache-mode writes mount [remote_name]: ~/[directory] &"
   }
 ]
