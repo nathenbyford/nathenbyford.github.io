@@ -14,7 +14,6 @@ website:
           - current_projects.qmd
           - past_projects.qmd
           - pres.qmd
-          - pubs.qmd
       - text: "Blog"
         file: blog/index.qmd
       - text: "About"
