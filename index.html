@@ -97,6 +97,54 @@ layout: default
     </div>
 </section>
 
+<!-- Publications Section -->
+<section id="publications" class="publications-section">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    
+    {% if site.data.publications %}
+      <div class="publications-list">
+        {% for pub in site.data.publications %}
+          <article class="publication-item">
+            <h3 class="publication-title">{{ pub.title }}</h3>
+            
+            <div class="publication-meta">
+              <span class="authors">{{ pub.authors }}</span>
+              <span class="venue">{{ pub.venue }}</span>
+              <span class="year">({{ pub.year }})</span>
+              <span class="type type-{{ pub.type }}">{{ pub.type | capitalize }}</span>
+            </div>
+            
+            {% if pub.abstract %}
+              <p class="publication-abstract">{{ pub.abstract }}</p>
+            {% endif %}
+            
+            <div class="publication-links">
+              {% if pub.doi %}
+                <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+              {% endif %}
+              
+              {% if pub.pdf %}
+                <a href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF</a>
+              {% endif %}
+              
+              {% if pub.github %}
+                <a href="{{ pub.github }}" target="_blank" rel="noopener">Code</a>
+              {% endif %}
+              
+              {% if pub.slides %}
+                <a href="{{ pub.slides }}" target="_blank" rel="noopener">Slides</a>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No publications available at this time.</p>
+    {% endif %}
+  </div>
+</section>
+
 <!-- Contact Section -->
 <section id="contact" class="section">
     <h2 class="section-title">Get In Touch</h2>
