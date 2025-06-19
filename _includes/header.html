@@ -1,0 +1,28 @@
+<header>
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ site.title | split: ' - ' | first }}</h1>
+            <p class="hero-subtitle">{{ site.title | split: ' - ' | last }}</p>
+            <p class="hero-description">{{ site.description }}</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">{{ site.data.stats.projects }}+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{ site.data.stats.experience }}+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{ site.data.stats.papers }}+</span>
+                    <span class="stat-label">Research Papers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{ site.data.stats.satisfaction }}%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

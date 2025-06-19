@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+<!-- About Section -->
+ <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p>Hi!</p>
+ </section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <h2 class="section-title">Technical Expertise</h2>
+    <div class="skills-grid">
+        {% for skill_group in site.data.skills %}
+        <div class="skill-category">
+            <h3><i class="{{ skill_group.icon }}"></i> {{ skill_group.category }}</h3>
+            <div class="skill-tags">
+                {% for skill in skill_group.skills %}
+                <span class="skill-tag">{{ skill }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+        {% for project in site.projects limit:6 %}
+        <div class="project-card">
+            <div class="project-image">
+                <i class="{{ project.icon | default: 'fas fa-project-diagram' }}"></i>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">{{ project.title }}</h3>
+                <p class="project-description">{{ project.excerpt | strip_html }}</p>
+                {% if project.tech %}
+                <div class="project-tech">
+                    {% for tech in project.tech %}
+                    <span class="tech-tag">{{ tech }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                <div class="project-links">
+                    <a href="{{ project.url | relative_url }}" class="project-link">
+                        <i class="fas fa-info-circle"></i> Details
+                    </a>
+                    {% if project.github %}
+                    <a href="{{ project.github }}" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                    {% endif %}
+                    {% if project.demo %}
+                    <a href="{{ project.demo }}" class="project-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Demo
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="section">
+    <h2 class="section-title">Latest Blog Posts</h2>
+    <div class="blog-grid">
+        {% for post in site.posts limit:4 %}
+        <article class="blog-card">
+            <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
+            <h3 class="blog-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+            {% if post.tags %}
+            <div class="blog-tags">
+                {% for tag in post.tags limit:3 %}
+                <span class="blog-tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <a href="{{ post.url | relative_url }}" class="read-more">
+                Read More <i class="fas fa-arrow-right"></i>
+            </a>
+        </article>
+        {% endfor %}
+    </div>
+    <div class="section-footer">
+        <a href="/blog/" class="btn-primary">View All Posts</a>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+        <p>I'm always interested in discussing new opportunities, collaborations, or statistical challenges. Let's connect!</p>
+        
+        <div class="contact-links">
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}" class="contact-link">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <span>Email</span>
+            </a>
+            {% endif %}
+            
+            {% if site.linkedin_username %}
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="contact-link" target="_blank">
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <span>LinkedIn</span>
+            </a>
+            {% endif %}
+            
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" class="contact-link" target="_blank">
+                <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <span>GitHub</span>
+            </a>
+            {% endif %}
+            
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="contact-link" target="_blank">
+                <div class="contact-icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</section>

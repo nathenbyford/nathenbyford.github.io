@@ -1,0 +1,57 @@
+- category: "Statistical Analysis"
+  icon: "fas fa-chart-line"
+  skills:
+    - "Hypothesis Testing"
+    - "Regression Analysis"
+    - "Time Series"
+    - "Bayesian Statistics"
+    - "Experimental Design"
+    - "A/B Testing"
+    - "Spatial Statistics"
+
+- category: "Machine Learning"
+  icon: "fas fa-robot"
+  skills:
+    - "Supervised Learning"
+    - "Unsupervised Learning"
+    - "Deep Learning"
+    - "NLP"
+    - "Computer Vision"
+    - "MLOps"
+
+- category: "Programming"
+  icon: "fas fa-code"
+  skills:
+    - "R"
+    - "Python"
+    - "SQL"
+    - "SAS"
+    - "Git"
+
+- category: "Visualization"
+  icon: "fas fa-chart-bar"
+  skills:
+    - "ggplot2"
+    - "Plotly"
+    - "Tableau"
+    - "Power BI"
+    - "Shiny"
+
+- category: "Data Engineering"
+  icon: "fas fa-database"
+  skills:
+    - "OracleSQL"
+    - "Apache Spark"
+    - "Docker"
+    - "Microsoft Azure"
+    - "AWS"
+
+- category: "Research Methods"
+  icon: "fas fa-microscope"
+  skills:
+    - "Survey Design"
+    - "Sampling Methods"
+    - "Causal Inference"
+    - "Meta-Analysis"
+    - "Quality Control"
+    - "Statistical Reporting"
