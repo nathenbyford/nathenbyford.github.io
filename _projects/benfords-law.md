@@ -3,7 +3,7 @@ layout: project
 title: "Detecting Benford's Law"
 subtitle: "Evaluating Goodness-of-Fit Tests and Exploring Textual Analogues"
 tech: [R, Simulation Studies, NLP]
-icon: "fas bar-chart"
+icon: "fas fa-bar-chart"
 date: 2021-08-01
 excerpt: "Developed and tested innovative methods for detecting Benford’s Law in real data, advancing statistical analysis techniques."
 ---

@@ -3,7 +3,7 @@ layout: project
 title: "Time Series Anomaly Detection"
 subtitle: "Identifying anomalies in univariate time series"
 tech: [R, Neural Networks, STL decomposition]
-icon: "fas line-chart"
+icon: "fas fa-line-chart"
 github: "https://github.com/nathenbyford/anomaly-detection-project"
 slides: "https://natebyford.com/anomaly-detection-project"
 date: 2023-12-15
