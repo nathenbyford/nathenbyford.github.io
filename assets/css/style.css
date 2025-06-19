@@ -361,6 +361,74 @@ main {
     color: var(--secondary-color);
 }
 
+.publications-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.publications-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.publication-item {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.publication-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.publication-meta {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.publication-meta span {
+  margin-right: 1rem;
+}
+
+.type {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.type-journal { background-color: #e3f2fd; color: #1976d2; }
+.type-conference { background-color: #f3e5f5; color: #7b1fa2; }
+.type-workshop { background-color: #e8f5e8; color: #388e3c; }
+
+.publication-abstract {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.publication-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.publication-links a:hover {
+  background-color: #0056b3;
+}
+
 /* Contact Section */
 .contact-content {
     max-width: 600px;

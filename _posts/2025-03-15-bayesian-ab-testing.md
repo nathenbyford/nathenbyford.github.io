@@ -3,7 +3,7 @@ layout: post
 title: "Understanding Bayesian A/B Testing"
 date: 2025-03-15
 tags: [Bayesian Statistics, A/B Testing, R]
-author: Your Name
+author: Nathen Byford
 excerpt: "Explore how Bayesian methods can provide more intuitive and actionable insights for A/B testing compared to traditional frequentist approaches."
 ---
 
