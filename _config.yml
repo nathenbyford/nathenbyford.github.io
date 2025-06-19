@@ -11,6 +11,8 @@ linkedin_username: nathen-byford
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 plugins:
   - jekyll-feed
   - jekyll-sitemap
