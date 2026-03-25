@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "27a351a9"
+  },
+  "about.qmd": {
+    "about.html": "bff4e307"
+  },
+  "blog.qmd": {
+    "blog.html": "6f57a8d7"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "b91545b2"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "dc0ce6d9"
+  },
+  "posts/SDA_1/index.qmd": {
+    "index.html": "90c61068"
+  },
+  "posts/double_poisson/double_poisson.qmd": {
+    "double_poisson.html": "b1024448"
+  },
+  "posts/linux/linux.qmd": {
+    "linux.html": "6529670f"
+  },
+  "posts/presentations/presentations.qmd": {
+    "presentations.html": "4411bda0"
+  },
+  "posts/histkit/histkit.qmd": {
+    "histkit.html": "b55431bd"
+  }
+}

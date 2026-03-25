@@ -1,0 +1,64 @@
+---
+title: "Nate Byford | Statistician & Data Scientist"
+toc: false
+---
+
+::: {.columns}
+::: {.column width="40%"}
+![](about.jpeg){width=80%}
+:::
+::: {.column width="60%"}
+Howdy! My name is Nate Byford, currently pursuing a Ph.D. in Statistical Sciences at Baylor University, specializing in Data Science. Over the past five years, I have applied advanced statistical techniques and machine learning to transform complex datasets into actionable insights. My experience spans consulting projects, academic collaborations, and co-authoring papers and conference presentations—all with a focus on delivering meaningful, client-driven results.
+
+I like to work at the intersection of statistical analysis, machine learning, and real-world problem solving. Whether designing Bayesian experiments, building predictive models, or implementing AI-driven solutions, my goal is to harness data to make smarter, safer, and more informed decisions.
+:::
+::: 
+
+# Skills
+
+```{=html}
+<div class="expertise-tiles">
+
+  <div class="tile">
+    <h3>Statistical Modeling</h3>
+    <p>Bayesian hierarchical models, GLMs/GLMMs, and dispersion-aware methods (Double Poisson, CMP) for complex real-world data.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Machine Learning & AI</h3>
+    <p>Predictive modeling, deep learning (LSTM/RNN), and anomaly detection systems for clinical and applied settings.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Scientific Computing</h3>
+    <p>Developing reusable R/Python packages and scalable simulation frameworks for statistical and ML workflows.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Data Engineering</h3>
+    <p>End-to-end pipelines for data cleaning, feature engineering, and parallelized computation across large datasets.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Visualization & Communication</h3>
+    <p>Transforming complex analyses into clear insights using ggplot2, interactive tools, and reproducible reporting.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Research & Simulation</h3>
+    <p>Designing Monte Carlo studies to evaluate model performance, robustness, and statistical properties.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Web & Tools</h3>
+    <p>Building technical websites, dashboards, and developer tools using Quarto and Jekyll.</p>
+  </div>
+
+  <div class="tile">
+    <h3>Applied Experience</h3>
+    <p>Real-world impact across clinical trials, disease modeling, and consulting.</p>
+  </div>
+
+</div>
+```
+

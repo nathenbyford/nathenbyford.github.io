@@ -1,0 +1,93 @@
+---
+title: "About"
+---
+
+This website is a portfolio of the work I want to share, the various ramblings of what I've learned or things I needed to reference again later, and a website to share who I am with whoever in interested.
+
+```{=html}
+<div class="resume-section">
+  <h2>Experience</h2>
+
+  <div class="resume-item">
+    <div class="resume-header">
+      <span class="role">Statistical Consultant</span>
+      <span class="date">2024 – Present</span>
+    </div>
+    <div class="organization">Baylor University Statistical Consulting Center</div>
+    <ul>
+      <li>Led statistical analyses across 20+ interdisciplinary projects spanning environmental science, healthcare, and social work.</li>
+      <li>Designed simulation studies and statistical models to evaluate complex experimental data.</li>
+      <li>Collaborated with domain experts to translate analytical results into actionable insights.</li>
+    </ul>
+  </div>
+
+  <div class="resume-item">
+    <div class="resume-header">
+      <span class="role">Research Assistant</span>
+      <span class="date">2025 - Present</span>
+    </div>
+    <div class="organization">Eli Lilly (Contract)</div>
+    <ul>
+      <li>Developed anomaly detection methods for clinical trial monitoring systems.</li>
+      <li>Built machine learning pipelines for identifying under-reporting in clinical sites.</li>
+      <li>Improved uncertainty quantification for decision-making workflows.</li>
+    </ul>
+  </div>
+
+  <div class="resume-item">
+    <div class="resume-header">
+      <span class="role">Teaching Assistant</span>
+      <span class="date">2022 - 2024</span>
+    </div>
+    <div class="organization">Baylor University Department of Statistical Science</div>
+    <ul>
+      <li>Supported undergraduate and graduate statistics courses through instruction, grading, and individualized assistance</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+
+  <div class="resume-item">
+    <div class="resume-header">
+      <span class="role">Ph.D in Statistics</span>
+      <span class="date">Expected Aug 2026</span>
+    </div>
+    <div class="organization">Baylor University</div>
+  </div>
+
+  <div class="resume-item">
+    <div class="resume-header">
+      <span class="role">M.S. in Statistics</span>
+      <span class="date">Dec 2023</span>
+    </div>
+    <div class="organization">Baylor University</div>
+  </div>
+
+  <div class="resume-item">
+    <div class="resume-header">
+      <span class="role">B.S. in Statistics</span>
+      <span class="date">May 2022</span>
+    </div>
+    <div class="organization">Baylor University</div>
+  </div>
+
+  <h2> Let's Connect! </h2>
+</div>
+
+```
+
+<div class="social-buttons">
+
+  <a href="https://linkedin.com/in/nathen-byford" target="_blank" class="social-btn linkedin">
+    <i class="bi bi-linkedin"></i> LinkedIn
+  </a>
+
+  <a href="https://github.com/nathenbyford" target="_blank" class="social-btn github">
+    <i class="bi bi-github"></i> GitHub
+  </a>
+
+  <a href="mailto:nate@natebyford.com" class="social-btn email">
+    <i class="bi bi-envelope"></i> Email
+  </a>
+
+</div>

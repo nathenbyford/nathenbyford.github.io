@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Nate Byford"
+  page-footer: 
+    center: "© 2026 Nathen Byford · CC BY-NC 4.0 No use for AI training without permission."
+  navbar:
+    logo: "initials.PNG"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+      - about.qmd
+
+format:
+  html:
+    theme: 
+    - lux
+    css: styles.css
+    toc: true
+
+
+

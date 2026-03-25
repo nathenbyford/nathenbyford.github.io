@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Nathen Byford">
+<meta name="dcterms.date" content="2026-03-24">
 
-<title>Nate Byford | Statistician &amp; Data Scientist – Nate Byford</title>
+<title>HistKit for histogram valued data in Python – Nate Byford</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +22,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,20 +104,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./initials.PNG" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../initials.PNG" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Nate Byford</span>
     </a>
   </div>
@@ -92,15 +128,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -111,85 +147,110 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">HistKit for histogram valued data in Python</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">data types</div>
+                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">packages</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Nathen Byford </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 24, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#histogram-valued-data" id="toc-histogram-valued-data" class="nav-link active" data-scroll-target="#histogram-valued-data">Histogram Valued Data</a>
+  <ul class="collapse">
+  <li><a href="#histogram-valued-analysis" id="toc-histogram-valued-analysis" class="nav-link" data-scroll-target="#histogram-valued-analysis">Histogram Valued Analysis</a></li>
+  </ul></li>
+  <li><a href="#histkit" id="toc-histkit" class="nav-link" data-scroll-target="#histkit">HistKit</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Nate Byford | Statistician &amp; Data Scientist</h1>
+
+
+
+
+<section id="histogram-valued-data" class="level1">
+<h1>Histogram Valued Data</h1>
+<p>Histogram valued data is, well, data that is represented by a histogram. There is a whole area of statistical research dedicated to what is called symbolic data analysis which includes histogram valued data and interval valued data among others. When we deal with data that are in non-standard “crisp” number form alternate methods are required.</p>
+<p>For histogram valued data, much of the analysis falls into a similar vain as functional dat analysis, since a histogram can be and often is represented as it’s step function. This step function of histogram valued data is similar to the empirical CDF with large bin widths.</p>
+<section id="histogram-valued-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="histogram-valued-analysis">Histogram Valued Analysis</h2>
+</section>
+</section>
+<section id="histkit" class="level1">
+<h1>HistKit</h1>
+<p>HistKit is a Python library I have developed for working with histogram data. It provides the dataclasses of <code>Histogram</code> for histogram valued objects and <code>HistogramMatrix</code> for collections of histogram valued data. Along with the functions to create these objects, there are plotting, summary statistics, and transformation methods for the objects.</p>
+<p>Here is an example of a histogram valued object in python using the Histogram dataclass.</p>
+<div id="00661db0" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> histkit.hist <span class="im">import</span> Histogram</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a histogram from raw data</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> np.random.normal(size<span class="op">=</span><span class="dv">1000</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>hist <span class="op">=</span> Histogram.from_raw_data(data, bins<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the histogram</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(hist)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Get histogram properties</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Mean: </span><span class="sc">{</span>hist<span class="sc">.</span>mean<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Standard deviation: </span><span class="sc">{</span>hist<span class="sc">.</span>std<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the histogram</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># hist.plot(color='blue', edgecolor='black')</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>This will output</p>
+<pre><code>
+          X                   p      
+Bin_1     [ -3.06 ; -2.48 )          0.011   
+Bin_2     [ -2.48 ; -1.9 )           0.033   
+Bin_3     [ -1.9 ; -1.32 )           0.093   
+Bin_4     [ -1.32 ; -0.742 )         0.16    
+Bin_5     [ -0.742 ; -0.163 )        0.201   
+Bin_6     [ -0.163 ; 0.415 )         0.222   
+Bin_7     [ 0.415 ; 0.994 )          0.168   
+Bin_8     [ 0.994 ; 1.57 )           0.081   
+Bin_9     [ 1.57 ; 2.15 )            0.024   
+Bin_10    [ 2.15 ; 2.73 ]            0.007   
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="about.jpeg" class="img-fluid" style="width:80.0%"></p>
-</div><div class="column" style="width:60%;">
-<p>Howdy! My name is Nate Byford, currently pursuing a Ph.D.&nbsp;in Statistical Sciences at Baylor University, specializing in Data Science. Over the past five years, I have applied advanced statistical techniques and machine learning to transform complex datasets into actionable insights. My experience spans consulting projects, academic collaborations, and co-authoring papers and conference presentations—all with a focus on delivering meaningful, client-driven results.</p>
-<p>I like to work at the intersection of statistical analysis, machine learning, and real-world problem solving. Whether designing Bayesian experiments, building predictive models, or implementing AI-driven solutions, my goal is to harness data to make smarter, safer, and more informed decisions.</p>
-</div>
-</div>
-<section id="skills" class="level1">
-<h1>Skills</h1>
-<div class="expertise-tiles">
-
-  <div class="tile">
-    <h3 class="anchored" data-anchor-id="skills">Statistical Modeling</h3>
-    <p>Bayesian hierarchical models, GLMs/GLMMs, and dispersion-aware methods (Double Poisson, CMP) for complex real-world data.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Machine Learning &amp; AI</h3>
-    <p>Predictive modeling, deep learning (LSTM/RNN), and anomaly detection systems for clinical and applied settings.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Scientific Computing</h3>
-    <p>Developing reusable R/Python packages and scalable simulation frameworks for statistical and ML workflows.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Data Engineering</h3>
-    <p>End-to-end pipelines for data cleaning, feature engineering, and parallelized computation across large datasets.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Visualization &amp; Communication</h3>
-    <p>Transforming complex analyses into clear insights using ggplot2, interactive tools, and reproducible reporting.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Research &amp; Simulation</h3>
-    <p>Designing Monte Carlo studies to evaluate model performance, robustness, and statistical properties.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Web &amp; Tools</h3>
-    <p>Building technical websites, dashboards, and developer tools using Quarto and Jekyll.</p>
-  </div>
-
-  <div class="tile">
-    <h3 class="anchored">Applied Experience</h3>
-    <p>Real-world impact across clinical trials, disease modeling, and consulting.</p>
-  </div>
-
-</div>
+mean = -0.163...         std = 0.988...
+Mean: -0.163...
+Standard deviation: 0.988...</code></pre>
+<p>More information can be found on the official github repo <a href="https://github.com/nathenbyford/HistKit">HistKit</a></p>
 
 
 </section>

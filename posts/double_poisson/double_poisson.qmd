@@ -1,0 +1,122 @@
+---
+title: "The Case for the Double Poisson GLM"
+description: "Why you might want to consider using the double Poisson in place of the Conway-Maxwell Poisson (CMP)."
+categories: [statistical modeling, analysis]
+author: "Nathen Byford"
+date: "6/5/2025"
+date-modified: today
+format:
+    html:
+        code-tools: true
+        code-overflow: wrap
+---
+
+When modeling count data, the Poisson distribution has long been the workhorse. But real data rarely play by Poisson's rules—specifically, the assumption that the mean equals the variance. Overdispersion is common; underdispersion, though rarer, can be even trickier. This has led to the rise of more flexible models like the Conway-Maxwell Poisson (CMP), which adjusts dispersion through an extra parameter.
+
+The CMP is powerful—but it’s also computationally expensive, hard to interpret in its standard form, and not naturally compatible with GLMs. And yet, it dominates modern flexible count modeling.
+
+# Enter the Double Poisson
+
+Back in 1986, Bradley Efron quietly introduced the Double Poisson (DP)—a simple, elegant generalization of the Poisson. It allows the variance to differ from the mean using a dispersion parameter $\theta$, while keeping the familiar Poisson-like structure. The key idea: scale the likelihood to adjust variance.
+
+Unlike CMP, the Double Poisson:
+
+- Is mean-parameterized by default
+- Plays well with GLM frameworks
+- Is easy to implement and interpret
+- Requires far less computational effort (compared to CMP)
+
+## Why Is It Overlooked?
+
+Mostly because it wasn’t loudly marketed. While CMP saw a wave of papers, software packages, and attention over the last two decades, the DP remained under the radar—despite being a fast, flexible, and interpretable solution for dispersed count data.
+
+## When Should You Use the DP?
+
+- You want Poisson-like behavior with flexible variance
+- You’re working in GLMs and don’t want to rewrite your modeling stack
+- You're doing Bayesian inference and want stable, fast sampling
+- You're analyzing data with moderate under- or overdispersion
+
+For extreme underdispersion or skewed count distributions, CMP might still fit better. But for many use cases, the Double Poisson is the practical sweet spot.
+
+# An example in R
+
+
+```{r}
+#| eval: false
+
+## Load packages
+library("tidyverse")
+library("gamlss")
+library("COMPoissonReg")
+library("tictoc")
+
+set.seed(51)
+
+# Simulate overdispersed data
+n <- 200
+x <- rnorm(n)
+mu <- exp(2 + 0.5 * x)
+y <- rpois(n, mu) + rbinom(n, 1, 0.3)  # extra variability added
+
+mean(y)
+var(y)
+
+df <- tibble(x = x, y = y)
+df |> 
+    ggplot(aes(y)) +
+    geom_density()
+
+# Fit Poisson, Double Poisson, and CMP models
+fit_pois <- glm(y ~ x, family = poisson, data = df)
+
+db <- tic()
+fit_dp <- gamlss(y ~ x, family = DPO, data = df)  # double Poisson from gamlss
+db <- toc(quiet=TRUE)
+
+cmp <- tic()
+fit_cmp <- glm.cmp(y ~ x, data = df)  # From COMPoissonReg
+cmp <- toc(quiet=TRUE)
+
+AIC(fit_pois)     # Poisson
+AIC(fit_dp)       # Double Poisson
+AIC(fit_cmp)      # CMP
+
+cat(paste("Double Poisson:", db$callback_msg))
+cat(paste("CMP:", cmp$callback_msg))
+```
+
+## Comparison of CMP and DP densities
+
+```{r}
+#| eval: false
+library("patchwork")
+
+mean <- 10
+N <- 1000
+
+dp <- tibble(
+    mod = "DP",
+    x = rep(seq(0, 30, length.out = N), 3),
+    mu = rep(mean, 3 * N),
+    disp = rep(c(2, 1, 0.5), each = N),
+    dispn = rep(c("over", "equi", "under"), each = N),
+    y = dDPO(x, mu = mu, sigma = disp)
+)
+
+cmp <- tibble(
+    mod = "CMP",
+    x = rep(seq(0, 30, length.out = N), 3),
+    mu = rep(mean, 3 * N),
+    disp = rep(c(1.5, 1, 0.7), each = N),
+    dispn = rep(c("under", "equi", "over"), each = N),
+    y = dcmp(x, lambda = mu^(disp), nu = disp)
+)
+
+bind_rows(dp, cmp) |>
+    ggplot() +
+    geom_line(aes(x = x, y = y, linetype = mod, color = mod)) +
+    facet_wrap(~dispn, nrow = 3) +
+    theme_minimal() +
+    scale_color_manual(values = c("steelblue", "goldenrod"))
+```

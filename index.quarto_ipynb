@@ -1,0 +1,50 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Howdy!\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "I'm Nate Byford, currently pursuing a Ph.D. in Statistical Sciences at Baylor University, with a concentration in Data Science. Over the past five years, I've leveraged advanced statistical methods and machine learning to transform complex data into actionable insights - completing numerous consulting projects, helping to author papers and conference presentations, and consistently delivering client satisfaction.\n",
+        "\n",
+        "My passion lies at the intersection of statistical analysis, data-driven decision-making, and real-world impact. Whether it's designing Bayesian A/B tests, developing predictive analytics, or implementing cutting-edge AI/ML, I strive to make the world a safer, smarter place through data science and Statistical science.\n",
+        "\n",
+        "\n",
+        "```{html}\n",
+        "<div class=\"expertise-tiles\">\n",
+        "\n",
+        "  <div class=\"tile\">\n",
+        "    <h3>Data Analysis</h3>\n",
+        "    <p>Experience with R, Python, and SQL for analyzing large datasets.</p>\n",
+        "  </div>\n",
+        "\n",
+        "  <div class=\"tile\">\n",
+        "    <h3>Machine Learning</h3>\n",
+        "    <p>Building predictive models and AI pipelines for business solutions.</p>\n",
+        "  </div>\n",
+        "\n",
+        "  <div class=\"tile\">\n",
+        "    <h3>Web Development</h3>\n",
+        "    <p>Developing interactive dashboards and websites using modern frameworks.</p>\n",
+        "  </div>\n",
+        "\n",
+        "</div>\n",
+        "```"
+      ],
+      "id": "b51661ca"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
