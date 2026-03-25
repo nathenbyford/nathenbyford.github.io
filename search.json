@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "posts/SDA_1/index.html",
+    "href": "posts/SDA_1/index.html",
+    "title": "The Fascinating World of Symbolic Data Analysis",
+    "section": "",
+    "text": "In the world of statistics and mathematics there is an underlying network of data types and structures. Typically we assume that if we are to apply some mathemarical operation or staistical analysis to data the data is a numerical value. That is that the data we’ve collected is a value represented by a number between \\(-\\infty\\) and \\(+\\infty\\). While this is typically true for most situations recently we’ve moved into the world of LLMs which apply probabilities to words and sentences. These are in no way numbers!"
+  },
+  {
+    "objectID": "posts/linux/linux.html",
+    "href": "posts/linux/linux.html",
+    "title": "Linux for statistics",
+    "section": "",
+    "text": "This guide will walk you through how to setup a workstation for statistics and data science on linux. The key parts of the guide will go over how to install the most recent version of R and some of the dependecies needed to install commonly used packages like the tidyverse. This guide will also continue to be updated as I think of things that need to be added for future reference."
+  },
+  {
+    "objectID": "posts/linux/linux.html#operating-system",
+    "href": "posts/linux/linux.html#operating-system",
+    "title": "Linux for statistics",
+    "section": "Operating system",
+    "text": "Operating system\nThe first step to setup a workstation for statistics and data science in linux is to decide which operating sustem to choose. You might be thinking, but I thought linux was the operatigns system? If you don’t know, there are over 600 different linux “distributions” being actively maintained. These distributions are all linux operating systems, but each is a bit different in how they install programs and operate. Some are based off of others and some are alone , to learn more about linux distributions check out the wikipedia article here.\nWith many linux distributions available, deciding what operating system to choose is a big task. Essentially there are 3 linux distributions that all others are based on, there are of course exceptions. These 3 that most are based on are Debian, Red Hat, and Arch. It all boils down to what package manager the distributions uses and the updating structure of the system.\nI’ve opted to use Ubuntu or Ubuntu based distributions for my systems. I have also used fedora before with no issues, both are great choices with large user bases and great communities. Ubuntu has a LTS(long term support) release cycles that is updated once a year in April and is supported for 4 years. This means that the system will continue to get updates for 4 years before you need to upgade to the new version."
+  },
+  {
+    "objectID": "posts/linux/linux.html#post-install",
+    "href": "posts/linux/linux.html#post-install",
+    "title": "Linux for statistics",
+    "section": "Post install",
+    "text": "Post install\nThere are many guides that show the process of installing linux on your pc, so I will not go over that on here. But once you have Ubuntu LTS installed, the following steps can be used to setup various software that we use for statistics or data science.\n\nR and tidyverse install\nSince Ubuntu doesn’t have the most up to date version of R, we need to add the key to the package manager so we can get the newest versions directly from cran.\nTo do this copy and past the following code into the terminal as a user with sudo access.\nwget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg\nNext we add the R sources to the sources that apt will look through by running the following in the terminal.\necho \"deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/\" | sudo tee -a /etc/apt/sources.list.d/r-project.list\nNow that we have added cran to apt as a source we want to update the source list in apt using apt update.\nsudo apt update\nThen finally installing R we can simply run the following in the terminal to install the latest version of R.\nsudo apt install r-base\nNow the most recent version of R should be install this can be checked by running R in your terminal or by typing R --version in the terminal.\n\n\nTidyverse and dependencies\nBefore installing the tidyverse package in R we need to install some dependencies on the operating system. To do this run the following in the terminal.\nsudo apt install r-base-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libcairo2-dev\nAfter the dependencies are installed using R and install.packages() we can install the tidyverse and any other packages you need.\n\n\nBayesian mcmc samplers\nTo install JAGS for use with rjags the following command can be ran.\nsudo apt-get update && sudo apt-get install jags\n\n\nAdditional R packages\nAside from the tidyverse here are some other helpful R packages that I like to use.\n\nquarto: For report and presentation creation.\ngt: For making high quality tables for reports.\ngtsummary: Extending gt with more table options.\nreadxl: For reading in Microsoft Excel data.\nlatex2exp: To label plots from ggplot2 with TeX formating, especialy helpful for math symbols in axes.\nrjags or rstan: Bayesian modeling in R."
+  },
+  {
+    "objectID": "posts/linux/linux.html#other-lanuages",
+    "href": "posts/linux/linux.html#other-lanuages",
+    "title": "Linux for statistics",
+    "section": "Other lanuages",
+    "text": "Other lanuages\n\nPython 3 is already installed on linux, I don’t use it much, but when I need it I Google how to install what I need on Ubuntu. pip can be installed as follows.\n\n# install pip\nsudo apt install python3-pip\n\nJulia can be installed in the software center if you search for it.\nLatex can be installed through texlive, to do this copy the following in to bash. There are many LaTeX editors available on linux through the software center. I prefer to just use visual studio code with the LaTeX workshop extension as my TeX editor.\n\n# install texlive full\nsudo apt install texlive-full"
+  },
+  {
+    "objectID": "posts/linux/linux.html#software-and-ides",
+    "href": "posts/linux/linux.html#software-and-ides",
+    "title": "Linux for statistics",
+    "section": "Software and IDEs",
+    "text": "Software and IDEs\nIn terms of installing applications for coding like Rstudio, these can be installed from their website. Just find the download for Ubuntu 22 and then open the installer and it will install through the software center. Many other popular apps that are a part of everyday life can also be installed similarly, some are even in the software center and only a search away. Some examples are:\n\nVisual Studio Code\nTeXstudio/TeXworks\nZotero\nZoom\nSlack\nTodoist"
+  },
+  {
+    "objectID": "posts/linux/linux.html#cloud-storage",
+    "href": "posts/linux/linux.html#cloud-storage",
+    "title": "Linux for statistics",
+    "section": "Cloud Storage",
+    "text": "Cloud Storage\nSome cloud storage solutions offer native linux clients like dropbox, but for most of us using Microsoft’s OneDrive, Google Drive or Box are not so fortunate. There is an open source program that can be used to sync the system with cloud storage solutions.\nThe software I use for this is called rclone, it can be installed using the terminal command\nsudo apt install rclone -y\nThen run\nrcone config\nAnd follow the directions to setup a new remote for your cloud storage.\nOnce the remote is setup you can create an empty directory to link the remote to. I like to set it up to be a directory in the root directory to keep it easy to find. Then the following code with your remote name and directory name will setup the remote at the new directory location.\nrclone --vfs-cache-mode writes mount [remote_name]: ~/[directory] &"
+  },
+  {
+    "objectID": "posts/double_poisson/double_poisson.html",
+    "href": "posts/double_poisson/double_poisson.html",
+    "title": "The Case for the Double Poisson GLM",
+    "section": "",
+    "text": "When modeling count data, the Poisson distribution has long been the workhorse. But real data rarely play by Poisson’s rules—specifically, the assumption that the mean equals the variance. Overdispersion is common; underdispersion, though rarer, can be even trickier. This has led to the rise of more flexible models like the Conway-Maxwell Poisson (CMP), which adjusts dispersion through an extra parameter.\nThe CMP is powerful—but it’s also computationally expensive, hard to interpret in its standard form, and not naturally compatible with GLMs. And yet, it dominates modern flexible count modeling."
+  },
+  {
+    "objectID": "posts/double_poisson/double_poisson.html#why-is-it-overlooked",
+    "href": "posts/double_poisson/double_poisson.html#why-is-it-overlooked",
+    "title": "The Case for the Double Poisson GLM",
+    "section": "Why Is It Overlooked?",
+    "text": "Why Is It Overlooked?\nMostly because it wasn’t loudly marketed. While CMP saw a wave of papers, software packages, and attention over the last two decades, the DP remained under the radar—despite being a fast, flexible, and interpretable solution for dispersed count data."
+  },
+  {
+    "objectID": "posts/double_poisson/double_poisson.html#when-should-you-use-the-dp",
+    "href": "posts/double_poisson/double_poisson.html#when-should-you-use-the-dp",
+    "title": "The Case for the Double Poisson GLM",
+    "section": "When Should You Use the DP?",
+    "text": "When Should You Use the DP?\n\nYou want Poisson-like behavior with flexible variance\nYou’re working in GLMs and don’t want to rewrite your modeling stack\nYou’re doing Bayesian inference and want stable, fast sampling\nYou’re analyzing data with moderate under- or overdispersion\n\nFor extreme underdispersion or skewed count distributions, CMP might still fit better. But for many use cases, the Double Poisson is the practical sweet spot."
+  },
+  {
+    "objectID": "posts/double_poisson/double_poisson.html#comparison-of-cmp-and-dp-densities",
+    "href": "posts/double_poisson/double_poisson.html#comparison-of-cmp-and-dp-densities",
+    "title": "The Case for the Double Poisson GLM",
+    "section": "Comparison of CMP and DP densities",
+    "text": "Comparison of CMP and DP densities\n\nlibrary(\"patchwork\")\n\nmean &lt;- 10\nN &lt;- 1000\n\ndp &lt;- tibble(\n    mod = \"DP\",\n    x = rep(seq(0, 30, length.out = N), 3),\n    mu = rep(mean, 3 * N),\n    disp = rep(c(2, 1, 0.5), each = N),\n    dispn = rep(c(\"over\", \"equi\", \"under\"), each = N),\n    y = dDPO(x, mu = mu, sigma = disp)\n)\n\ncmp &lt;- tibble(\n    mod = \"CMP\",\n    x = rep(seq(0, 30, length.out = N), 3),\n    mu = rep(mean, 3 * N),\n    disp = rep(c(1.5, 1, 0.7), each = N),\n    dispn = rep(c(\"under\", \"equi\", \"over\"), each = N),\n    y = dcmp(x, lambda = mu^(disp), nu = disp)\n)\n\nbind_rows(dp, cmp) |&gt;\n    ggplot() +\n    geom_line(aes(x = x, y = y, linetype = mod, color = mod)) +\n    facet_wrap(~dispn, nrow = 3) +\n    theme_minimal() +\n    scale_color_manual(values = c(\"steelblue\", \"goldenrod\"))"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Random Walks and Random Thoughts",
+    "section": "",
+    "text": "HistKit for histogram valued data in Python\n\n\n\n\n\n\ndata types\n\n\nanalysis\n\n\npackages\n\n\n\n\n\n\n\n\n\nMar 24, 2026\n\n\nNathen Byford\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fascinating World of Symbolic Data Analysis\n\n\n\n\n\n\ndata types\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 23, 2026\n\n\nNate Byford\n\n\n\n\n\n\n\n\n\n\n\n\nThe Case for the Double Poisson GLM\n\n\n\n\n\n\nstatistical modeling\n\n\nanalysis\n\n\n\nWhy you might want to consider using the double Poisson in place of the Conway-Maxwell Poisson (CMP).\n\n\n\n\n\nJun 5, 2025\n\n\nNathen Byford\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding technical presentations with Quarto\n\n\n\n\n\n\nSoftware\n\n\nAnalysis\n\n\nCode\n\n\n\nMy tips, tricks, and opinions on how to best produce technical presentations with quarto.\n\n\n\n\n\nMay 14, 2024\n\n\nNathen Byford\n\n\n\n\n\n\n\n\n\n\n\n\nLinux for statistics\n\n\n\n\n\n\nSoftware\n\n\nComputing\n\n\ncode\n\n\n\nQuick start guide for how to setup Linux for data science and statistical work.\n\n\n\n\n\nJan 15, 2024\n\n\nNathen Byford\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website is a portfolio of the work I want to share, the various ramblings of what I’ve learned or things I needed to reference again later, and a website to share who I am with whoever in interested.\n\n  Experience\n\n  \n    \n      Statistical Consultant\n      2024 – Present\n    \n    Baylor University Statistical Consulting Center\n    \n      Led statistical analyses across 20+ interdisciplinary projects spanning environmental science, healthcare, and social work.\n      Designed simulation studies and statistical models to evaluate complex experimental data.\n      Collaborated with domain experts to translate analytical results into actionable insights.\n    \n  \n\n  \n    \n      Research Assistant\n      2025 - Present\n    \n    Eli Lilly (Contract)\n    \n      Developed anomaly detection methods for clinical trial monitoring systems.\n      Built machine learning pipelines for identifying under-reporting in clinical sites.\n      Improved uncertainty quantification for decision-making workflows.\n    \n  \n\n  \n    \n      Teaching Assistant\n      2022 - 2024\n    \n    Baylor University Department of Statistical Science\n    \n      Supported undergraduate and graduate statistics courses through instruction, grading, and individualized assistance\n    \n  \n\n  Education\n\n  \n    \n      Ph.D in Statistics\n      Expected Aug 2026\n    \n    Baylor University\n  \n\n  \n    \n      M.S. in Statistics\n      Dec 2023\n    \n    Baylor University\n  \n\n  \n    \n      B.S. in Statistics\n      May 2022\n    \n    Baylor University\n  \n\n   Let's Connect! \n\n\n\n  LinkedIn \n  GitHub \n  Email"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nate Byford | Statistician & Data Scientist",
+    "section": "",
+    "text": "Howdy! My name is Nate Byford, currently pursuing a Ph.D. in Statistical Sciences at Baylor University, specializing in Data Science. Over the past five years, I have applied advanced statistical techniques and machine learning to transform complex datasets into actionable insights. My experience spans consulting projects, academic collaborations, and co-authoring papers and conference presentations—all with a focus on delivering meaningful, client-driven results.\nI like to work at the intersection of statistical analysis, machine learning, and real-world problem solving. Whether designing Bayesian experiments, building predictive models, or implementing AI-driven solutions, my goal is to harness data to make smarter, safer, and more informed decisions.\n\n\n\nSkills\n\n\n  \n    Statistical Modeling\n    Bayesian hierarchical models, GLMs/GLMMs, and dispersion-aware methods (Double Poisson, CMP) for complex real-world data.\n  \n\n  \n    Machine Learning & AI\n    Predictive modeling, deep learning (LSTM/RNN), and anomaly detection systems for clinical and applied settings.\n  \n\n  \n    Scientific Computing\n    Developing reusable R/Python packages and scalable simulation frameworks for statistical and ML workflows.\n  \n\n  \n    Data Engineering\n    End-to-end pipelines for data cleaning, feature engineering, and parallelized computation across large datasets.\n  \n\n  \n    Visualization & Communication\n    Transforming complex analyses into clear insights using ggplot2, interactive tools, and reproducible reporting.\n  \n\n  \n    Research & Simulation\n    Designing Monte Carlo studies to evaluate model performance, robustness, and statistical properties.\n  \n\n  \n    Web & Tools\n    Building technical websites, dashboards, and developer tools using Quarto and Jekyll.\n  \n\n  \n    Applied Experience\n    Real-world impact across clinical trials, disease modeling, and consulting."
+  },
+  {
+    "objectID": "posts/histkit/histkit.html",
+    "href": "posts/histkit/histkit.html",
+    "title": "HistKit for histogram valued data in Python",
+    "section": "",
+    "text": "Histogram valued data is, well, data that is represented by a histogram. There is a whole area of statistical research dedicated to what is called symbolic data analysis which includes histogram valued data and interval valued data among others. When we deal with data that are in non-standard “crisp” number form alternate methods are required.\nFor histogram valued data, much of the analysis falls into a similar vain as functional dat analysis, since a histogram can be and often is represented as it’s step function. This step function of histogram valued data is similar to the empirical CDF with large bin widths."
+  },
+  {
+    "objectID": "posts/presentations/presentations.html",
+    "href": "posts/presentations/presentations.html",
+    "title": "Building technical presentations with Quarto",
+    "section": "",
+    "text": "Making technical presentations can be a difficult task, this difficulty is increased when using a software that you are unfamiliar with. I hope in this post to make it easier for anyone wanting to produce technical presentations for research or courses in Quarto.\n\nWhat is Quarto and Reveal.js\nWe should start by getting a grasp of what this software is and how it works. Quarto is a markdown package and file type that allows users to write text alongside math and code. Quarto supports R, python, and julia just to name a few of the coding languages supported. Quarto documents can be compuled or knitted into .pdf, .html, and other formats. The focus of this blog post is specifically for it’s ability to produce presentations with reveal.js.\nAccording to the reveal.js website and documentation, “Reveal.js is an open source HTML presentation framework.” Simply put it makes presentations that are built on HTML and are viewed in a web browser. Since the presentation is built on HTML it is able to have reactive elements that you can interact with as well as gifs and videos."
+  }
+]

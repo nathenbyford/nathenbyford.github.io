@@ -1,0 +1,112 @@
+/* css styles */
+/* Grid layout */
+.expertise-tiles {
+  display: flex;
+  flex-wrap: wrap;          /* Wrap tiles to next row if needed */
+  gap: 20px;                /* Space between tiles */
+  justify-content: center;  /* Center tiles horizontally */
+  margin: 20px 0;
+}
+
+.tile {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1 1 250px;          /* Grow, shrink, minimum width */
+  max-width: 350px;         /* Optional: prevent overly wide tiles */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.tile h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.tile p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.resume-section {
+  margin-top: 40px;
+}
+
+.resume-section h2 {
+  border-bottom: 2px solid #58a6ff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.resume-item {
+  margin-bottom: 25px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.organization {
+  color: #8b949e;
+  margin-bottom: 8px;
+}
+
+.resume-item ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.resume-item li {
+  margin-bottom: 6px;
+  color: #c9d1d9;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: #161b22;
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.social-btn:hover {
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+/* Individual styles */
+.social-btn.linkedin:hover {
+  border-color: #0a66c2;
+  box-shadow: 0 0 12px rgba(10,102,194,0.5);
+}
+
+.social-btn.github:hover {
+  border-color: #c9d1d9;
+  box-shadow: 0 0 12px rgba(255,255,255,0.3);
+}
+
+.social-btn.email:hover {
+  border-color: #58a6ff;
+  box-shadow: 0 0 12px rgba(88,166,255,0.5);
+}

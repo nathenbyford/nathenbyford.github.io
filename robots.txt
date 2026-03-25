@@ -1,0 +1,51 @@
+# =========================================
+# General rules
+# =========================================
+User-agent: *
+Allow: /
+
+# =========================================
+# Block AI training crawlers
+# =========================================
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# Google AI (Gemini / Bard training)
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl (used by many models)
+User-agent: CCBot
+Disallow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+# Meta / Facebook AI
+User-agent: FacebookBot
+Disallow: /
+
+# Amazon / Alexa AI
+User-agent: Amazonbot
+Disallow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Disallow: /
+
+# =========================================
+# Optional: Allow search engines explicitly
+# =========================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
